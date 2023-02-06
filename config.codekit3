@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34434",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
     "\/.idea" : {
       "ft" : 65536,
       "oA" : 1,
@@ -65061,6 +65069,26 @@
       "oAP" : "\/deploy\/web\/.htaccess",
       "oF" : 0
     },
+    "\/deploy\/web\/assets\/css\/main.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/assets\/css\/main.min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/web\/assets\/css\/main.min.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/assets\/css\/main.min.css.map",
+      "oF" : 0
+    },
     "\/deploy\/web\/assets\/js\/app.min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -69846,6 +69874,28 @@
       "oAP" : "\/deploy\/web\/web.config",
       "oF" : 0
     },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/postcss.config.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -69884,8 +69934,8 @@
       "ft" : 16,
       "ma" : 3,
       "oA" : 0,
-      "oAP" : "\/source\/css\/main.css",
-      "oF" : 1,
+      "oAP" : "\/deploy\/web\/assets\/css\/main.min.css",
+      "oF" : 3,
       "pg" : 0
     },
     "\/source\/js\/app.js" : {

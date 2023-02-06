@@ -93,6 +93,7 @@
       <path value="$PROJECT_DIR$/deploy/vendor/craftcms/html-field" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/deploy/vendor/theiconic/name-parser" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4">

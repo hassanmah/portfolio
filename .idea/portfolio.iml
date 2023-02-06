@@ -96,6 +96,7 @@
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/html-field" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/theiconic/name-parser" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

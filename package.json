@@ -1,0 +1,19 @@
+{
+  "name": "codekit-project",
+  "version": "1.0.0",
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
+  "scripts": {},
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": {},
+  "private": true,
+  "dependencies": {
+    "@swup/scroll-plugin": "^2.0.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "aos": "^2.3.4",
+    "swiper": "^9.0.3",
+    "swup": "^3.0.4",
+    "tailwindcss": "^3.2.4"
+  }
+}
