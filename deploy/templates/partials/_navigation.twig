@@ -1,0 +1,295 @@
+{% cache globally %}
+
+
+{% set leftNavigation = craft.navigation.nodes('leftNavigation').level(1).with(['children']).collect() %}
+{% set rightNavigation = craft.navigation.nodes('rightNavigation').level(1).with(['children']).collect() %}
+
+
+{% do craft.app.elements.eagerLoadElements(
+  className(logo),
+  [logo],
+  [
+    'logoBlack',
+  ]
+) %}
+
+<div class="fixed top-0  left-0 right-0 w-full z-30">
+  <div x-data="{ navOpen: false, fixBar: false, searchOpen: false, searchTerm: '', dropdownOpen: '' }">
+    <div class="container-xs lg:container-sm lg:container block bg-white transition-all ease-out duration-700 lg:py-0 w-full border-b border-nav-border overflow-y-scroll" :class="{ 'h-screen lg:h-auto' : navOpen }">
+      <div class="row">
+        <nav class="flex flex-row items-center"  >
+
+          <div class="flex flex-col lg:flex-row justify-between w-full">
+
+
+            <ul x-cloak :class="navOpen ? 'menu__open' : 'menu__closed'" class="flex flex-col lg:flex-row order-2 lg:order-1 border-t border-grey-light lg:border-t-0 ">
+              {% if rightNavigation %}
+                {% nav node in rightNavigation %}
+                  <li class="group cursor-pointer">
+                    <a aria-label="{{ node.title }}" class="font-sans uppercase flex items-center text-14 font-light border-b lg:border-transparent lg:hover:border-black-light border-grey-light h-full {% if not loop.last %}lg:mr-8{% endif %} py-6 lg:button__spacing {% if node.classes | length %}{{ node.classes }}{% endif %} {% if node.hasDescendants %}flex flex-row justify-between items-center{% endif %}" {% if node.url %}href="{{ node.url }}"{% endif %} {% if node.newWindow %} target="_blank" rel="noopener"{% endif %} {% if node.hasDescendants %}@click="dropdownOpen === '{{ node.id }}' ? dropdownOpen = '' : dropdownOpen = '{{ node.id }}'"{% endif %}>
+                      {{ node.title }}
+                      {% if node.hasDescendants %}
+                        <div class="block lg:hidden group-hover:rotate-180">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 5.28034C16 5.48179 15.9052 5.67147 15.744 5.79234L8 11.6003L0.256003 5.79234C0.0948472 5.67147 3.39592e-06 5.48178 3.41353e-06 5.28034C3.45964e-06 4.75295 0.602091 4.45191 1.024 4.76834L8 10.0003L14.976 4.76834C15.3979 4.45191 16 4.75295 16 5.28034Z" fill="#838383"/>
+                          </svg>
+                        </div>
+                      {% endif %}
+                    </a>
+                    {% if node.hasDescendants %}
+                      {% if node.title == 'Products' %}
+                        <div class="lg:translate-x-[-45px] lg:w-[908px] min-h-[376px] top-full lg:absolute flex flex-row flex-wrap -mx-4 lg:-mx-nav lg:bg-nav lg:border lg:border-nav-border pt-4 lg:p-nav" x-cloak x-show.duration.800ms="dropdownOpen === '{{ node.id }}'">
+                          <div class="w-full lg:w-2/3 px-4 lg:px-0">
+                            <ul class="flex flex-row flex-wrap -mx-4">
+                              <li class="w-1/2 px-4">
+                                <a aria-label="shop" class="button__spacing text-16 font-light font-sans hover:underline flex flex-row items-center" href="/products">
+                                  <div class="mr-2">
+                                    <svg class="w-8 h-8" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M12.5775 14.375C11.2275 14.375 10.125 13.2725 10.125 11.9225V5C10.125 4.79 10.29 4.625 10.5 4.625H19.5C19.71 4.625 19.875 4.79 19.875 5V14C19.875 14.21 19.71 14.375 19.5 14.375H12.5775Z" fill="white"/>
+                                      <path d="M19.5 5V14H12.5775C11.43 14 10.5 13.07 10.5 11.9225V5H19.5ZM19.5 4.25H10.5C10.0875 4.25 9.75 4.5875 9.75 5V11.9225C9.75 13.4825 11.0175 14.75 12.5775 14.75H19.5C19.9125 14.75 20.25 14.4125 20.25 14V5C20.25 4.5875 19.9125 4.25 19.5 4.25Z" fill="black"/>
+                                      <path d="M10.3275 16.625C8.9775 16.625 7.875 15.5225 7.875 14.1725V7.25C7.875 7.04 8.04 6.875 8.25 6.875H17.25C17.46 6.875 17.625 7.04 17.625 7.25V16.25C17.625 16.46 17.46 16.625 17.25 16.625H10.3275Z" fill="white"/>
+                                      <path d="M17.25 7.25V16.25H10.3275C9.18 16.25 8.25 15.32 8.25 14.1725V7.25H17.25ZM17.25 6.5H8.25C7.8375 6.5 7.5 6.8375 7.5 7.25V14.1725C7.5 15.7325 8.7675 17 10.3275 17H17.25C17.6625 17 18 16.6625 18 16.25V7.25C18 6.8375 17.6625 6.5 17.25 6.5Z" fill="black"/>
+                                      <path d="M8.0775 18.875C6.7275 18.875 5.625 17.7725 5.625 16.4225V9.5C5.625 9.29 5.79 9.125 6 9.125H15C15.21 9.125 15.375 9.29 15.375 9.5V18.5C15.375 18.71 15.21 18.875 15 18.875H8.0775Z" fill="white"/>
+                                      <path d="M15 9.5V18.5H8.0775C6.93 18.5 6 17.57 6 16.4225V9.5H15ZM15 8.75H6C5.5875 8.75 5.25 9.0875 5.25 9.5V16.4225C5.25 17.9825 6.5175 19.25 8.0775 19.25H15C15.4125 19.25 15.75 18.9125 15.75 18.5V9.5C15.75 9.0875 15.4125 8.75 15 8.75Z" fill="black"/>
+                                      <path d="M5.8275 21.125C4.4775 21.125 3.375 20.0225 3.375 18.6725V11.75C3.375 11.54 3.54 11.375 3.75 11.375H12.75C12.96 11.375 13.125 11.54 13.125 11.75V20.75C13.125 20.96 12.96 21.125 12.75 21.125H5.8275Z" fill="white"/>
+                                      <path d="M12.75 11.75V20.75H5.8275C4.68 20.75 3.75 19.82 3.75 18.6725V11.75H12.75ZM12.75 11H3.75C3.3375 11 3 11.3375 3 11.75V18.6725C3 20.2325 4.2675 21.5 5.8275 21.5H12.75C13.1625 21.5 13.5 21.1625 13.5 20.75V11.75C13.5 11.3375 13.1625 11 12.75 11Z" fill="black"/>
+                                    </svg>
+                                  </div>
+                                  <span>View all</span>
+                                </a>
+                              </li>
+                              {% for subnode in node.children.collect() %}
+                                {% if subnode.title != "Samples" %}
+                                  <li class="w-1/2 px-4">
+                                    <a aria-label="{{ subnode.title }}" class="button__spacing text-16 font-light font-sans hover:underline flex flex-row items-center" href="{{ subnode.url }}">
+                                      {% set element = subnode.getElement() %}
+
+
+                                      {% if element.icon %}
+                                        <div class="mr-2">
+                                          {{ svg(element.icon.collect().first())|attr({ class: 'w-8 h-8' }) }}
+                                        </div>
+                                      {% endif %}
+                                      <span>{{ subnode.title }}</span>
+                                    </a>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          </div>
+                          <div class="w-full lg:w-1/3 px-4 lg:px-nav lg:pr-0 lg:border-l lg:border-grey-light lg:flex lg:flex-col lg:justify-center">
+                            {% if productButtons.showInNavigation %}
+                              {% if productButtons.buttons %}
+                                {% for b in productButtons.buttons.collect() %}
+                                  <a {% if b.button.ariaLabel %}aria-label="{{ b.button.ariaLabel }}"{% endif %} {% if b.button.title %}title="{{ b.button.title }}"{% endif %} class="button__spacing bg-white w-full lg:w-[auto] text-black font-san font-light text-16 px-8 py-4 flex flex-row justify-center items-center border border-black-light hover:bg-black hover:text-white mb-4 last:mb-0" href="{{ b.button }}" {% if  b.button.target %}target="{{  b.button.target }}"{% endif %} >
+                                    {{  b.button.customText }}
+                                    <svg width="13" height="10" class="ml-2" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 4.5399 0.372981 4.16692 0.833077 4.16692H9.11077L6.66765 1.77725C6.32977 1.44676 6.33019 0.902905 6.66859 0.572933V0.572933C6.99547 0.254194 7.51686 0.254174 7.84376 0.572889L12.3846 5L7.84376 9.42711C7.51686 9.74583 6.99547 9.74581 6.66859 9.42707V9.42707C6.33019 9.0971 6.32977 8.55324 6.66765 8.22275L9.11077 5.83308H0.833075C0.37298 5.83308 0 5.4601 0 5V5Z" fill="#838383"/>
+                                    </svg>
+
+                                  </a>
+                                {% endfor %}
+                              {% endif %}
+                            {% endif %}
+                          </div>
+                        </div>
+
+                      {% else %}
+                        <ul class="lg:translate-x-[-45px] lg:w-[350px] top-full lg:absolute lg:bg-nav lg:border lg:border-nav-border py-4 lg:p-nav" x-show.duration.800ms="dropdownOpen === '{{ node.id }}'" x-cloak>
+                          {% for subnode in node.children.collect() %}
+                            <li class="mb-6 last:mb-0">
+                              <a aria-label="{{ subnode.title }}" class="py-5 text-16 font-light font-sans hover:underline" href="{{ subnode.url }}">
+                                {{ subnode.title }}
+                              </a>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+
+                    {% endif %}
+                  </li>
+
+                {% endnav %}
+              {% endif %}
+
+            </ul>
+
+            <div :class="{ 'pb-6 lg:pb-0' : navOpen }" class="flex flex-row justify-between lg:justify-center w-full lg:w-[auto] items-center order-1 lg:order-2 relative">
+              <div class="block lg:hidden search order-1">
+                <button aria-label="Open search" class="p-2 flex items-center justify-center" @click="searchOpen = !searchOpen; document.body.classList.toggle('overflow-hidden');navOpen = false;">
+                  <svg x-cloak :class="searchOpen ? 'search__closed' : 'search__open'" width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="9.5" stroke="black"/>
+                    <path d="M16.4219 17.5L22 23.0781" stroke="black" stroke-linecap="round"/>
+                  </svg>
+
+                  <svg x-cloak :class="searchOpen ? 'search__open' : 'search__closed'" width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9539 2.65547C21.1491 2.85141 21.1491 3.1691 20.9539 3.36504L1.66112 22.7249C1.46586 22.9208 1.14928 22.9208 0.954016 22.7249C0.758753 22.5289 0.758754 22.2112 0.954016 22.0153L20.2467 2.65547C20.442 2.45953 20.7586 2.45953 20.9539 2.65547Z" fill="black"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9539 22.7253C20.7587 22.9212 20.4421 22.9212 20.2468 22.7253L0.95409 3.36546C0.758828 3.16952 0.758827 2.85184 0.954089 2.6559C1.14935 2.45996 1.46593 2.45996 1.6612 2.6559L20.9539 22.0157C21.1492 22.2117 21.1492 22.5294 20.9539 22.7253Z" fill="black"/>
+                  </svg>
+
+
+                </button>
+              </div>
+
+              <a aria-label="Homepage" href="{{siteUrl}}" class="lg:absolute lg:right-0 w-[124px] order-2">
+                {% if logo.logoBlack %}
+                  {{ svg(logo.logoBlack.collect().first()) }}
+                {% endif %}
+              </a>
+              <button aria-label="Open navigation" @click="navOpen = !navOpen; document.body.classList.toggle('overflow-hidden');searchOpen = false;" class="block lg:hidden menu order-3 p-2">
+
+                <svg :class="navOpen ? 'search__closed' : 'search__open'" width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5.755C0 5.33803 0.335786 5 0.75 5H21.25C21.6642 5 22 5.33803 22 5.755C22 6.17197 21.6642 6.51 21.25 6.51H0.75C0.335786 6.51 0 6.17197 0 5.755Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.7907C0 11.375 0.335786 11.0381 0.75 11.0381H21.25C21.6642 11.0381 22 11.375 22 11.7907C22 12.2063 21.6642 12.5433 21.25 12.5433H0.75C0.335786 12.5433 0 12.2063 0 11.7907Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 17.8117C0 17.396 0.335786 17.0591 0.75 17.0591H21.25C21.6642 17.0591 22 17.396 22 17.8117C22 18.2273 21.6642 18.5643 21.25 18.5643H0.75C0.335786 18.5643 0 18.2273 0 17.8117Z" fill="black"/>
+                </svg>
+
+                <svg :class="navOpen ? 'search__open' : 'search__closed'" width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9539 2.65547C21.1491 2.85141 21.1491 3.1691 20.9539 3.36504L1.66112 22.7249C1.46586 22.9208 1.14928 22.9208 0.954016 22.7249C0.758753 22.5289 0.758754 22.2112 0.954016 22.0153L20.2467 2.65547C20.442 2.45953 20.7586 2.45953 20.9539 2.65547Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9539 22.7253C20.7587 22.9212 20.4421 22.9212 20.2468 22.7253L0.95409 3.36546C0.758828 3.16952 0.758827 2.85184 0.954089 2.6559C1.14935 2.45996 1.46593 2.45996 1.6612 2.6559L20.9539 22.0157C21.1492 22.2117 21.1492 22.5294 20.9539 22.7253Z" fill="black"/>
+                </svg>
+
+              </button>
+            </div>
+
+            <div x-cloak :class="searchOpen ? 'search__open' : 'search__closed'" class="absolute inset-0 h-screen w-screen bg-black-15 -z-10" >
+              <div class="bg-white pt-[80px]">
+                <div class="container-sm py-0">
+                  <div class="row">
+
+                    <form class="flex flex-row items-center" @submit.prevent="window.location.href = '{{siteUrl}}search?q=' + searchTerm">
+                      <svg class="mr-6" width="31" height="33" viewBox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="13.4672" cy="13.9272" r="12.9672" stroke="black"/>
+                        <path d="M22.1133 24.0278L29.6255 31.54" stroke="black" stroke-linecap="round"/>
+                      </svg>
+
+                      <input aria-label="Search field" class="px-0 w-full border-0 placeholder-grey-mid font-sans font-light heading-sm lg:heading-xl text-black py-6 lg:py-desktop-md" type="text" placeholder="Search" x-model="searchTerm">
+                      <button aria-label="Search" type="submit" x-bind:href="'{{siteUrl}}search?q=' + searchTerm">
+                        <svg width="46" height="37" viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M27 1L45 18.5L27 36" stroke="black" stroke-linecap="round"/>
+                          <path d="M44 18.5L1 18.5" stroke="black" stroke-linecap="round"/>
+                        </svg>
+                      </button>
+                    </form>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div x-cloak :class="navOpen ? 'menu__open' : 'menu__closed'" class="flex flex-col lg:flex-row lg:items-center order-3 ">
+              <ul class="flex flex-col lg:flex-row">
+                {% if leftNavigation %}
+                  {% nav node in leftNavigation %}
+                    <li class="group cursor-pointer lg:mr-8">
+                      <a aria-label="{{ node.title }}" class="font-sans flex items-center text-16 lg:text-14 font-light py-6 lg:button__spacing border-b lg:border-transparent lg:hover:border-black-light border-grey-light h-full {% if node.classes | length %}{{ node.classes }}{% endif %} {% if node.hasDescendants %}flex flex-row justify-between items-center{% endif %}" {% if node.url %}href="{{ node.url }}"{% endif %} {% if node.newWindow %} target="_blank" rel="noopener"{% endif %} {% if node.hasDescendants %}@click="dropdownOpen === '{{ node.id }}' ? dropdownOpen = '' : dropdownOpen = '{{ node.id }}'"{% endif %}>
+                        {{ node.title }}
+                        {% if node.hasDescendants %}
+                          <div class="block lg:hidden group-hover:rotate-180">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M16 5.28034C16 5.48179 15.9052 5.67147 15.744 5.79234L8 11.6003L0.256003 5.79234C0.0948472 5.67147 3.39592e-06 5.48178 3.41353e-06 5.28034C3.45964e-06 4.75295 0.602091 4.45191 1.024 4.76834L8 10.0003L14.976 4.76834C15.3979 4.45191 16 4.75295 16 5.28034Z" fill="#838383"/>
+                            </svg>
+                          </div>
+                        {% endif %}
+                      </a>
+                      {% if node.hasDescendants %}
+                        <ul x-cloak class="lg:translate-x-[-45px] lg:w-[350px] top-full lg:absolute  lg:bg-nav lg:border lg:border-nav-border py-4 lg:p-nav" x-show.duration.800ms="dropdownOpen === '{{ node.id }}'">
+                          {% for subnode in node.children.collect() %}
+                            <li class="mb-6 last:mb-0">
+                              <a aria-label="{{ subnode.title }}" class="py-5 text-16 font-light font-sans hover:underline" href="{{ subnode.url }}">
+                                {{ subnode.title }}
+                              </a>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  {% endnav %}
+                {% endif %}
+
+                {% nocache %}
+
+{#                <li class="lg:px-2 py-6 lg:py-8 border-b lg:border-transparent border-grey-light">#}
+{#                  <a aria-label="login" href="/login" class="flex flex-row">#}
+{#                    <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">#}
+{#                      <circle cx="8.72638" cy="4.78302" r="4.28302" stroke="black" stroke-linecap="round"/>#}
+{#                      <path d="M16.4528 19.4999C16.4528 15.2327 12.9936 11.7734 8.72642 11.7734C4.45923 11.7734 1 15.2327 1 19.4999" stroke="black" stroke-linecap="round"/>#}
+{#                    </svg>#}
+{#                    <span class="ml-4 block lg:hidden text-16 font-light font-sans">Login</span>#}
+
+{#                  </a>#}
+{#                </li>#}
+{#                  {% if currentUser %}#}
+{#                  {% if currentUser.isInGroup('trade') %}#}
+{#                    {% set cart = craft.commerce.carts.cart %}#}
+
+{#                    <li class="lg:px-2 py-6 lg:py-8 border-b lg:border-transparent border-grey-light">#}
+{#                      <a aria-label="cart" href="/shop/cart" class="flex flex-row">#}
+{#                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">#}
+{#                          <path d="M16.3594 7.19971H1C0.723858 7.19971 0.5 7.42356 0.5 7.69971V19.3392C0.5 19.6153 0.723858 19.8392 1 19.8392H16.3594C16.6355 19.8392 16.8594 19.6153 16.8594 19.3392V7.69971C16.8594 7.42356 16.6355 7.19971 16.3594 7.19971Z" stroke="black"/>#}
+{#                          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68052 1C6.21743 1 4.2207 2.99673 4.2207 5.45982C4.2207 5.73596 3.99685 5.95982 3.7207 5.95982C3.44456 5.95982 3.2207 5.73596 3.2207 5.45982C3.2207 2.44445 5.66515 0 8.68052 0C11.6959 0 14.1403 2.44445 14.1403 5.45982C14.1403 5.73596 13.9165 5.95982 13.6403 5.95982C13.3642 5.95982 13.1403 5.73596 13.1403 5.45982C13.1403 2.99673 11.1436 1 8.68052 1Z" fill="black"/>#}
+{#                          <path class="{% if (cart.lineItems | length == 0) %}hidden{% endif %}" d="M20.4531 6.5C20.4531 9.26142 18.2145 11.5 15.4531 11.5C12.6917 11.5 10.4531 9.26142 10.4531 6.5C10.4531 3.73858 12.6917 1.5 15.4531 1.5C18.2145 1.5 20.4531 3.73858 20.4531 6.5Z" fill="#374456"/>#}
+{#                        </svg>#}
+{#                        <span class="ml-4 block lg:hidden text-16 font-light font-sans">Cart {% if (cart.lineItems | length > 0) %}({{ cart.lineItems | length }}){% endif %}</span>#}
+{#                      </a>#}
+{#                    </li>#}
+
+{#                  {% endif %}#}
+{#                  {% endif %}#}
+                {% endnocache %}
+                <li class="hidden lg:block lg:px-2 py-6 lg:py-8 border-b lg:border-transparent border-grey-light">
+                  <button aria-label="Open search" @click="searchOpen = !searchOpen; document.body.classList.toggle('overflow-hidden');" class="flex items-center justify-center">
+                    <svg x-cloak :class="searchOpen ? 'search__closed' : 'search__open'" width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="9.5" stroke="black"/>
+                      <path d="M16.4219 17.5L22 23.0781" stroke="black" stroke-linecap="round"/>
+                    </svg>
+
+                    <svg x-cloak :class="searchOpen ? 'search__open' : 'search__closed'" width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9531 2.65547C21.1483 2.85141 21.1483 3.1691 20.9531 3.36504L1.66036 22.7249C1.4651 22.9208 1.14851 22.9208 0.953253 22.7249C0.757991 22.5289 0.757991 22.2112 0.953253 22.0153L20.246 2.65547C20.4412 2.45953 20.7578 2.45953 20.9531 2.65547Z" fill="black"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9532 22.7253C20.7579 22.9212 20.4413 22.9212 20.2461 22.7253L0.953327 3.36546C0.758065 3.16952 0.758064 2.85184 0.953327 2.6559C1.14859 2.45996 1.46517 2.45996 1.66043 2.6559L20.9532 22.0157C21.1484 22.2117 21.1484 22.5294 20.9532 22.7253Z" fill="black"/>
+                    </svg>
+
+
+                  </button>
+                  <div x-cloak :class="searchOpen ? 'search__open' : 'search__closed'" class="absolute inset-0 h-screen w-screen bg-black-15 -z-10" >
+                    <div class="bg-white pt-[80px]">
+                      <div class="container-sm py-0">
+                        <div class="row">
+
+                          <form class="flex flex-row items-center" @submit.prevent="window.location.href = '{{siteUrl}}search?q=' + searchTerm">
+                            <svg class="mr-6" width="31" height="33" viewBox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="13.4672" cy="13.9272" r="12.9672" stroke="black"/>
+                              <path d="M22.1133 24.0278L29.6255 31.54" stroke="black" stroke-linecap="round"/>
+                            </svg>
+
+                            <input aria-label="Search field" class="px-0 w-full border-0 placeholder-grey-mid font-sans font-light heading-xl text-black py-mobile-md lg:py-desktop-md" type="text" placeholder="Search" x-model="searchTerm">
+                            <button aria-label="Search" type="submit" x-bind:href="'{{siteUrl}}search?q=' + searchTerm">
+                              <svg width="46" height="37" viewBox="0 0 46 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M27 1L45 18.5L27 36" stroke="black" stroke-linecap="round"/>
+                                <path d="M44 18.5L1 18.5" stroke="black" stroke-linecap="round"/>
+                              </svg>
+                            </button>
+                          </form>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+
+        </nav>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+{% endcache %}

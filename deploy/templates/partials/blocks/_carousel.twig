@@ -1,0 +1,57 @@
+<div class="container-blocks relative">
+  <div class="row">
+    <div class="flex flex-col md:flex-row justify-between md:items-center">
+      {% if block.heading %}
+        <h2 class="font-serif italic text-grey-mid heading-sm">{{ block.heading }}</h2>
+      {% endif %}
+
+      <div class="hidden md:flex items-end justify-end mt-4 md:mt-10 space-y-2 md:space-y-0 md:mt-0">
+        <div class="flex space-x-3">
+          <button @click="previous" aria-label="previous" class="flex items-center space-x-3 -scale-x-100 prev-swiper-{{ block.id }} py-4">
+            {% include 'partials/svg/_arrow.svg' %}
+          </button>
+          <button @click="next" aria-label="next" class="flex items-center space-x-3 next-swiper-{{ block.id }} py-4">
+            <span class="md:ml-10">
+              {% include 'partials/svg/_arrow.svg' %}
+            </span>
+
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+    {% if block.listEntries %}
+      <div class="mt-6 space-y-6 lg:mt-12 md:space-y-0 breakout">
+
+        <div>
+
+
+          <!-- Slider main container -->
+          <div class="swiper overflow-visible"  id="swiper-{{ block.id }}">
+            <!-- Additional required wrapper -->
+            <div class="pt-5 pb-8 swiper-wrapper md:ml-[-40px]">
+
+
+              {% for ent in block.listEntries.collect() %}
+
+                <div class="swiper-slide w-2/3 md:w-[387px] mx-2">
+                  {% include 'partials/components/_listing' with {
+                    'entry': ent,
+                    'curves': true,
+                    'showSummary': true,
+                  } only %}
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="swiper-pagination hidden"></div>
+          </div>
+        </div>
+      </div>
+
+    {% endif %}
+
+  </div>
+</div>

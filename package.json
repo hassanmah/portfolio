@@ -11,6 +11,7 @@
     "@swup/scroll-plugin": "^2.0.1",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
+    "alpinejs": "^3.11.1",
     "aos": "^2.3.4",
     "swiper": "^9.0.3",
     "swup": "^3.0.4",

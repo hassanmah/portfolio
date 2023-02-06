@@ -1,0 +1,9 @@
+{% for block in entry.blocks.all() %}
+  {% switch block.type %}
+{#    {% case "linksBlock" %}#}
+{#      {% include "partials/blocks-home/_links" %}#}
+  {% endswitch %}
+{% endfor %}
+
+
+

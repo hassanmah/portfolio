@@ -1,0 +1,29 @@
+<!-- Set js class -->
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+
+{% if getenv('CRAFT_ENVIRONMENT') != 'production'%}
+  <meta content="noindex,nofollow" name="robots">
+{% endif %}
+
+<link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+
+
+{% if entry is defined  %}
+    {% if entry.altTitle | length %}
+      <title>{{ entry.altTitle | raw  }}</title>
+    {% else %}
+      <title>{{ entry.title | raw  }}</title>
+    {% endif %}
+{% endif %}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+<link rel="stylesheet" href="/assets/css/main.css">
+

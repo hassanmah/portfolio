@@ -1,0 +1,56 @@
+{% set textColour = "text-black-light" %}
+
+{% if block.textTheme.value == 'light' %}
+  {% set textColour = "text-white" %}
+{% endif %}
+
+<div class="container-blocks px-0">
+  <div class="flex flex-col-reverse md:flex-row bg-{{ block.backgroundColour.value }} pb-small">
+    <div class="w-full md:w-1/2">
+      <div class="pt-16 px-4 flex flex-col justify-center items-center h-full max-w-[550px] mx-auto">
+        {% if block.meta %}
+          <span class="italic font-serif text-grey-mid heading-sm text-center mb-2">{{ block.meta }}</span>
+        {% endif %}
+
+        {% if block.heading %}
+          <h3 class="font-sans {{ textColour }} heading-lg md:heading-xl text-center">{{ block.heading }}</h3>
+        {% endif %}
+
+        {% if block.body %}
+          <div class="mt-6 {{ textColour }} text-center body-md prose-heading prose-h2:font-serif prose-ul:ml-5 prose-li:list-disc prose-h2:text-grey-mid prose-h2:heading-sm prose-h2:italic prose-h2:mb-xs prose-h3:font-serif prose-h3:text-grey-mid prose-h3:italic prose-h3:heading-xs prose-h3:mb-4">
+            {{ block.body }}
+          </div>
+        {% endif %}
+
+        {% if block.button %}
+
+          <a {% if block.button.ariaLabel %}aria-label="{{ block.button.ariaLabel }}"{% endif %} {% if block.button.title %}title="{{ block.button.title }}"{% endif %} class="button__spacing bg-transparent {{ textColour }} font-san font-light text-16 px-8 py-4 mt-4 md:mt-[42px] flex flex-row justify-center items-center hover:underline" href="{{ block.button }}" {% if block.button.target %}target="{{ block.button.target }}"{% endif %} >
+            {{ block.button.customText }}
+            <svg width="13" height="10" class="ml-2" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 4.5399 0.372981 4.16692 0.833077 4.16692H9.11077L6.66765 1.77725C6.32977 1.44676 6.33019 0.902905 6.66859 0.572933V0.572933C6.99547 0.254194 7.51686 0.254174 7.84376 0.572889L12.3846 5L7.84376 9.42711C7.51686 9.74583 6.99547 9.74581 6.66859 9.42707V9.42707C6.33019 9.0971 6.32977 8.55324 6.66765 8.22275L9.11077 5.83308H0.833075C0.37298 5.83308 0 5.4601 0 5V5Z" fill="#838383"/>
+            </svg>
+
+          </a>
+        {% endif %}
+
+      </div>
+
+    </div>
+
+
+    <div class="w-full md:w-1/2">
+      <div class="overflow-hidden rounded-bl-48">
+        {% set image = block.image.collect().first() ?? null %}
+        {% set optImage = image.headerMediumTransform ?? null %}
+
+        {% include "partials/components/_image" with { options: {
+          image: image,
+          optImage: optImage,
+          class: "object-cover w-full  max-h-[320px]"
+        } } only %}
+
+        </div>
+    </div>
+  </div>
+
+</div>

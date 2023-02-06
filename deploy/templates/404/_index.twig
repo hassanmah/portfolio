@@ -1,0 +1,44 @@
+{% extends '_layout.twig' %}
+{% set pageTitle = 'Page not found' %}
+
+
+{% block content %}
+  {% include 'partials/_navigation' %}
+
+  <section class="container">
+    <div class="row">
+      <div class="flex flex-row justify-center">
+        <div class="w-full flex flex-col items-center justify-center max-w-[574px] mx-auto">
+          <div class="mb-8">
+            {% if entry.altTitle %}
+              <h1 class="text-black font-sans font-light text-center heading-md">
+                {{ entry.altTitle }}
+              </h1>
+            {% endif %}
+          </div>
+          <div class="mb-8">
+            <div class="text-black font-sans font-light text-center body-lg">
+              {% if entry.body %}
+                {{ entry.body }}
+              {% endif %}
+            </div>
+          </div>
+
+          {% if entry.button %}
+            <a {% if entry.button.ariaLabel %}aria-label="{{ entry.button.ariaLabel }}"{% endif %} {% if entry.button.title %}title="{{ entry.button.title }}"{% endif %} class="button__spacing bg-black text-white font-san font-light text-16 px-6 py-3 mt-4 ml:mt-small flex flex-row justify-center items-center border border-black hover:bg-transparent hover:text-black button__spacing" href="{{ entry.button }}" {% if entry.button.target %}target="{{ entry.button.target }}"{% endif %} >
+              {{ entry.button.customText }}
+              <svg width="13" height="10" class="ml-2" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 4.5399 0.372981 4.16692 0.833077 4.16692H9.11077L6.66765 1.77725C6.32977 1.44676 6.33019 0.902905 6.66859 0.572933V0.572933C6.99547 0.254194 7.51686 0.254174 7.84376 0.572889L12.3846 5L7.84376 9.42711C7.51686 9.74583 6.99547 9.74581 6.66859 9.42707V9.42707C6.33019 9.0971 6.32977 8.55324 6.66765 8.22275L9.11077 5.83308H0.833075C0.37298 5.83308 0 5.4601 0 5V5Z" fill="#838383"/>
+              </svg>
+
+            </a>
+          {% endif %}
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
+

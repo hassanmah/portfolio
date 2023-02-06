@@ -1,0 +1,33 @@
+
+
+
+{% if getenv('CRAFT_ENVIRONMENT') == 'staging'  %}
+  {% set cron = craft.app.request.getParam('p') %}
+  {% if cron != 'actions/feed-me/feeds/' %}
+    {% if not currentUser  %}
+      {% requireLogin %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include 'partials/_head' %}
+</head>
+<body>
+  <main class="relative">
+
+    {% block content %}
+    {% endblock %}
+
+    {% include 'partials/_footer' %}
+
+    {{ sprig.script }}
+
+    {% include 'partials/_scripts' %}
+
+  </main>
+</body>
+</html>
