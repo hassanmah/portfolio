@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: services
+name: Services
+propagationMethod: all
+siteSettings:
+  a4159753-8a1a-4a33-be53-8b3d4014a610: # Portfolio
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

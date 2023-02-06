@@ -1,0 +1,60 @@
+fieldLayouts:
+  88248128-2327-47c1-af92-df0a20514a73:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: bbb252a6-5a9a-42ac-b9c1-d77c07a0582b # Available for work?
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 717a5761-07a9-4dd4-b5de-f492b33df6b0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 993b0220-7fbc-4c8f-94e6-10a6bffad528 # Email address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c6c2bad2-46ee-4ed6-b89d-c5157d76d992
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e5fb7200-8192-4c3a-b270-625e56a1197d # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b6e8aa3b-37d8-46a5-b04d-d6e86cbf5bfc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 05d35468-8a78-4c4e-9c05-3e5635b35456 # Logo (footer)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b3cc9d91-17f0-4620-be8d-7430d9d55ef2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 976bf6d2-921b-4885-ae50-7f7f83a90b24
+        userCondition: null
+handle: about
+name: About
+sortOrder: 2

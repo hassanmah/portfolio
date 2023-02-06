@@ -1,0 +1,14 @@
+columnSuffix: hjpsxtce
+contentColumnType: boolean
+fieldGroup: 1732d711-cc92-4fbd-adc5-0089e90fad79 # About
+handle: listingImageOverlay
+instructions: null
+name: 'Listing image overlay'
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

@@ -1,0 +1,64 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 937f08fb-c57a-4702-a099-98dd7db74e7f # Blocks
+fieldLayouts:
+  5ede7087-645c-40f0-af74-46dd558ab3f8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d64dba0e-b3dd-4726-a5f3-d77f911363a9 # Block ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1d3df06b-758a-408f-9c55-00e11778fdf6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b85cb2e-64d9-43b5-8693-68097a618895 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 42bd7d75-55a5-4568-aa44-09a9bfdc7164
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a0e4f2eb-7480-4c82-a5e0-1675bebe0a16 # Form
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8ecbf008-2aaa-4064-a4b2-ee34c88b0887
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a81c28a2-a6a2-4933-832c-995839b388d3
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: formBlock
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Form
+sortOrder: 4
+topLevel: true

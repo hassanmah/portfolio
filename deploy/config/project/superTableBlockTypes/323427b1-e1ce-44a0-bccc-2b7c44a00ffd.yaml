@@ -1,0 +1,89 @@
+changedFieldIndicator: 1644358740
+field: c454d863-60f4-46a6-a8f3-51bc5e3e2db8 # Links
+fieldLayouts:
+  851cdf8e-9a2f-4215-993b-d25e369b5f0f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9af558ff-8f1f-4d0f-ae70-4f0a5c2c5add # Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6783c357-18ce-4401-818c-222f4e0d3eff
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1eeb9a32-baf7-4a50-8d78-2d758444140a
+        userCondition: null
+fields:
+  9af558ff-8f1f-4d0f-ae70-4f0a5c2c5add: # Item
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: item
+    instructions: null
+    name: Item
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: true
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: asset
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources:
+            - 'section:24bb6f49-5a05-4f93-8dea-a874654c6cbd' # Projects
+            - 'section:0cb8f772-dc44-4b7e-9676-63945bf54cb7' # Pages
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: true
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField

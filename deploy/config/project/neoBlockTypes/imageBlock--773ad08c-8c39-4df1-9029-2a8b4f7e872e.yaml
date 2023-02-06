@@ -1,0 +1,52 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 937f08fb-c57a-4702-a099-98dd7db74e7f # Blocks
+fieldLayouts:
+  133a595f-3917-4485-a0d7-5e6aceeaffb5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d64dba0e-b3dd-4726-a5f3-d77f911363a9 # Block ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 89c3a0f6-b7f2-4e8e-bb28-878705d08e98
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 51dc1ca6-1aae-44ed-89dd-a7b0b687c681 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2ef8b9f-6dee-45c8-bfa5-dda9c08b6b50
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2011d008-82c8-4144-ae32-61dc54f83f4d
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: imageBlock
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: Image
+sortOrder: 2
+topLevel: true

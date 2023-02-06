@@ -1,0 +1,79 @@
+fieldLayouts:
+  12adbcee-9deb-4977-905f-880b27bbca43:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 84532b36-92d3-42dc-9321-8f98d8c84d85
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 76140e88-ea52-4bcd-9518-7dab11324050 # Alt title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6221a403-a939-4de0-9505-e3c7665b0e99
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a6b876e1-27af-4290-b76e-235413141039 # Icon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4031f384-5a8b-4e7d-a5fd-775274369b95
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ad2057fb-7a69-4edc-add1-60ca888e8e08 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d8828ffb-f932-4a39-9864-eeb14662483a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 85d0fcd3-e603-43e8-959e-5358b7e304b6
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 339c5328-db0a-4a11-91fb-567215e5cbca # Services
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,24 @@
+fieldLayouts:
+  fa8c8ceb-27dd-4b90-a55f-72a230488c5b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c454d863-60f4-46a6-a8f3-51bc5e3e2db8 # Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30aca451-734f-4502-915b-5990b1a766b1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Links
+        uid: deae571e-3a5c-4f8f-883e-e37cf6e914a4
+        userCondition: null
+handle: socialLinks
+name: 'Social links'
+sortOrder: 4

@@ -1,0 +1,78 @@
+fieldLayouts:
+  960511a0-c9e2-4a98-a17a-423e25679c35:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 8272b159-4720-4be0-b6de-1ecddd26db07
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: e66e95d7-fb3a-442d-accf-7eaafae2e5d5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 34ddd9c0-0028-4716-b50c-73aa40ea6920 # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dcd30b5a-0946-4cd0-99a9-337a971890e4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e45302fa-6e13-4fd9-84d4-f715c187677a
+        userCondition: null
+fs: videos
+handle: videos
+name: Videos
+sortOrder: 3
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: videos
+transformSubpath: ''

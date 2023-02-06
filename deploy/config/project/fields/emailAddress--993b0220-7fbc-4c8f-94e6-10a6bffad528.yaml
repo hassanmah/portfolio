@@ -1,0 +1,19 @@
+columnSuffix: lblohqph
+contentColumnType: text
+fieldGroup: ed4f4722-db0d-4f33-ac6c-827e244388d7 # Common
+handle: emailAddress
+instructions: null
+name: 'Email address'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

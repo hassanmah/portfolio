@@ -33,7 +33,7 @@ html {
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
   tab-size: 4; /* 3 */
-  font-family: Helvetica Neue, arial, sans-serif; /* 4 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal; /* 5 */
 }
@@ -1074,9 +1074,6 @@ svg {
 .overflow-y-scroll {
   overflow-y: scroll;
 }
-.rounded-bl-48 {
-  border-bottom-left-radius: 48px;
-}
 .border {
   border-width: 1px;
 }
@@ -1096,29 +1093,12 @@ svg {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
-.border-grey-light {
-  border-color: rgba(206, 206, 206, 1);
-}
-.border-nav-border {
-  --tw-border-opacity: 1;
-  border-color: rgb(246 246 242 / var(--tw-border-opacity));
-}
-.border-black-light {
-  border-color: rgba(50, 50, 50, 1);
-}
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
-.bg-sky-blue-light {
-  background-color: rgba(236, 236, 236, 1);
-}
 .bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-black-15 {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 1.0);
 }
 .bg-transparent {
   background-color: transparent;
@@ -1206,10 +1186,10 @@ svg {
   text-align: center;
 }
 .font-sans {
-  font-family: Helvetica Neue, arial, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .font-serif {
-  font-family: Denton, Georgia, sans-serif;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .text-16 {
   font-size: 16px;
@@ -1231,26 +1211,10 @@ svg {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-grey-mid {
-  color: rgba(131, 131, 131, 1);
-}
-.text-black-light {
-  color: rgba(50, 50, 50, 1);
+  color: rgba(255, 255, 255, 1.0);
 }
 .underline {
   text-decoration-line: underline;
-}
-.placeholder-grey-mid::-webkit-input-placeholder {
-  color: rgba(131, 131, 131, 1);
-}
-.placeholder-grey-mid::-moz-placeholder {
-  color: rgba(131, 131, 131, 1);
-}
-.placeholder-grey-mid::placeholder {
-  color: rgba(131, 131, 131, 1);
 }
 .transition-all {
   transition-property: all;
@@ -1263,148 +1227,94 @@ svg {
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
-.heading-xl {
-  font-size: calc(26px + 22 * ( (100vw - 400px) / 1374));
-  line-height: calc(38px + 26 * ( (100vw - 400px) / 1362));
+.body {
+  font-size: calc(16px + 0 * ( (100vw - 400px) / 1384));
+  line-height: calc(26px + 0 * ( (100vw - 400px) / 1374));
 }
 @media (min-width: 1400px) {
 
-  .heading-xl {
-    font-size: 48px;
-    line-height: 64px;
+  .body {
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 @media (max-width: 400px) {
 
-  .heading-xl {
-    font-size: 26px;
-    line-height: 38px;
-  }
-}
-.heading-lg {
-  font-size: calc(40px + 0 * ( (100vw - 400px) / 1360));
-  line-height: calc(56px + 0 * ( (100vw - 400px) / 1344));
-}
-@media (min-width: 1400px) {
-
-  .heading-lg {
-    font-size: 40px;
-    line-height: 56px;
-  }
-}
-@media (max-width: 400px) {
-
-  .heading-lg {
-    font-size: 40px;
-    line-height: 56px;
-  }
-}
-.heading-md {
-  font-size: calc(32px + 0 * ( (100vw - 400px) / 1368));
-  line-height: calc(48px + 0 * ( (100vw - 400px) / 1352));
-}
-@media (min-width: 1400px) {
-
-  .heading-md {
-    font-size: 32px;
-    line-height: 48px;
-  }
-}
-@media (max-width: 400px) {
-
-  .heading-md {
-    font-size: 32px;
-    line-height: 48px;
-  }
-}
-.heading-sm {
-  font-size: calc(24px + 0 * ( (100vw - 400px) / 1376));
-  line-height: calc(32px + 0 * ( (100vw - 400px) / 1368));
-}
-@media (min-width: 1400px) {
-
-  .heading-sm {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-@media (max-width: 400px) {
-
-  .heading-sm {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-.heading-xs {
-  font-size: calc(18px + 0 * ( (100vw - 400px) / 1382));
-  line-height: calc(24px + 0 * ( (100vw - 400px) / 1376));
-}
-@media (min-width: 1400px) {
-
-  .heading-xs {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-@media (max-width: 400px) {
-
-  .heading-xs {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-.caption {
-  font-size: calc(12px + 0 * ( (100vw - 400px) / 1388));
-  line-height: calc(16px + 0 * ( (100vw - 400px) / 1384));
-}
-@media (min-width: 1400px) {
-
-  .caption {
-    font-size: 12px;
-    line-height: 16px;
-  }
-}
-@media (max-width: 400px) {
-
-  .caption {
-    font-size: 12px;
-    line-height: 16px;
+  .body {
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 .body-lg {
   font-size: calc(20px + 0 * ( (100vw - 400px) / 1380));
-  line-height: calc(32px + 0 * ( (100vw - 400px) / 1368));
+  line-height: calc(34px + 0 * ( (100vw - 400px) / 1366));
 }
 @media (min-width: 1400px) {
 
   .body-lg {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 34px;
   }
 }
 @media (max-width: 400px) {
 
   .body-lg {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 34px;
   }
 }
-.body-md {
-  font-size: calc(16px + 0 * ( (100vw - 400px) / 1384));
-  line-height: calc(28px + 0 * ( (100vw - 400px) / 1372));
+.h3 {
+  font-size: calc(40px + 0 * ( (100vw - 400px) / 1360));
+  line-height: calc(50px + 0 * ( (100vw - 400px) / 1350));
 }
 @media (min-width: 1400px) {
 
-  .body-md {
-    font-size: 16px;
-    line-height: 28px;
+  .h3 {
+    font-size: 40px;
+    line-height: 50px;
   }
 }
 @media (max-width: 400px) {
 
-  .body-md {
-    font-size: 16px;
-    line-height: 28px;
+  .h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+.h2 {
+  font-size: calc(60px + 0 * ( (100vw - 400px) / 1340));
+  line-height: calc(73px + 0 * ( (100vw - 400px) / 1327));
+}
+@media (min-width: 1400px) {
+
+  .h2 {
+    font-size: 60px;
+    line-height: 73px;
+  }
+}
+@media (max-width: 400px) {
+
+  .h2 {
+    font-size: 60px;
+    line-height: 73px;
+  }
+}
+.h1 {
+  font-size: calc(80px + 0 * ( (100vw - 400px) / 1320));
+  line-height: calc(92px + 0 * ( (100vw - 400px) / 1308));
+}
+@media (min-width: 1400px) {
+
+  .h1 {
+    font-size: 80px;
+    line-height: 92px;
+  }
+}
+@media (max-width: 400px) {
+
+  .h1 {
+    font-size: 80px;
+    line-height: 92px;
   }
 }
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
@@ -1426,8 +1336,7 @@ svg {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgba(255, 255, 255, 1.0);
 }
 .hover\:underline:hover {
   text-decoration-line: underline;
@@ -1441,61 +1350,19 @@ svg {
   margin-bottom: 24px;
 }
 .prose-h2\:font-serif :is(:where(h2):not(:where([class~="not-prose"] *))) {
-  font-family: Denton, Georgia, sans-serif;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .prose-h2\:italic :is(:where(h2):not(:where([class~="not-prose"] *))) {
   font-style: italic;
-}
-.prose-h2\:text-grey-mid :is(:where(h2):not(:where([class~="not-prose"] *))) {
-  color: rgba(131, 131, 131, 1);
-}
-.prose-h2\:heading-sm :is(:where(h2):not(:where([class~="not-prose"] *))) {
-  font-size: calc(24px + 0 * ( (100vw - 400px) / 1376));
-  line-height: calc(32px + 0 * ( (100vw - 400px) / 1368));
-}
-@media (min-width: 1400px) {
-
-  .prose-h2\:heading-sm :is(:where(h2):not(:where([class~="not-prose"] *))) {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-@media (max-width: 400px) {
-
-  .prose-h2\:heading-sm :is(:where(h2):not(:where([class~="not-prose"] *))) {
-    font-size: 24px;
-    line-height: 32px;
-  }
 }
 .prose-h3\:mb-4 :is(:where(h3):not(:where([class~="not-prose"] *))) {
   margin-bottom: 1rem;
 }
 .prose-h3\:font-serif :is(:where(h3):not(:where([class~="not-prose"] *))) {
-  font-family: Denton, Georgia, sans-serif;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .prose-h3\:italic :is(:where(h3):not(:where([class~="not-prose"] *))) {
   font-style: italic;
-}
-.prose-h3\:text-grey-mid :is(:where(h3):not(:where([class~="not-prose"] *))) {
-  color: rgba(131, 131, 131, 1);
-}
-.prose-h3\:heading-xs :is(:where(h3):not(:where([class~="not-prose"] *))) {
-  font-size: calc(18px + 0 * ( (100vw - 400px) / 1382));
-  line-height: calc(24px + 0 * ( (100vw - 400px) / 1376));
-}
-@media (min-width: 1400px) {
-
-  .prose-h3\:heading-xs :is(:where(h3):not(:where([class~="not-prose"] *))) {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-@media (max-width: 400px) {
-
-  .prose-h3\:heading-xs :is(:where(h3):not(:where([class~="not-prose"] *))) {
-    font-size: 18px;
-    line-height: 24px;
-  }
 }
 .prose-ul\:ml-5 :is(:where(ul):not(:where([class~="not-prose"] *))) {
   margin-left: 1.25rem;
@@ -1598,27 +1465,6 @@ svg {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-
-  .md\:heading-xl {
-    font-size: calc(26px + 22 * ( (100vw - 400px) / 1374));
-    line-height: calc(38px + 26 * ( (100vw - 400px) / 1362));
-  }
-
-  @media (min-width: 1400px) {
-
-    .md\:heading-xl {
-      font-size: 48px;
-      line-height: 64px;
-    }
-  }
-
-  @media (max-width: 400px) {
-
-    .md\:heading-xl {
-      font-size: 26px;
-      line-height: 38px;
-    }
   }
 }
 @media (min-width: 878px) {
@@ -1785,20 +1631,6 @@ svg {
     border-color: transparent;
   }
 
-  .lg\:border-nav-border {
-    --tw-border-opacity: 1;
-    border-color: rgb(246 246 242 / var(--tw-border-opacity));
-  }
-
-  .lg\:border-grey-light {
-    border-color: rgba(206, 206, 206, 1);
-  }
-
-  .lg\:bg-nav {
-    --tw-bg-opacity: 1;
-    background-color: rgb(252 252 252 / var(--tw-bg-opacity));
-  }
-
   .lg\:p-nav {
     padding: 40px;
   }
@@ -1843,31 +1675,6 @@ svg {
 
   .lg\:text-14 {
     font-size: 14px;
-  }
-
-  .lg\:heading-xl {
-    font-size: calc(26px + 22 * ( (100vw - 400px) / 1374));
-    line-height: calc(38px + 26 * ( (100vw - 400px) / 1362));
-  }
-
-  @media (min-width: 1400px) {
-
-    .lg\:heading-xl {
-      font-size: 48px;
-      line-height: 64px;
-    }
-  }
-
-  @media (max-width: 400px) {
-
-    .lg\:heading-xl {
-      font-size: 26px;
-      line-height: 38px;
-    }
-  }
-
-  .lg\:hover\:border-black-light:hover {
-    border-color: rgba(50, 50, 50, 1);
   }
 }
 

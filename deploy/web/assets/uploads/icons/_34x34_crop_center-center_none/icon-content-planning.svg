@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 0 64 64" fill="none">
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="31.25" fill="#F97316" fill-opacity="0.25"></rect>
+  <path d="M19.9167 44.0833L27 42.4167L42.4882 26.9285C43.139 26.2776 43.139 25.2224 42.4882 24.5715L39.4285 21.5118C38.7777 20.861 37.7223 20.861 37.0715 21.5118L21.5833 37L19.9167 44.0833Z" stroke="#F97316" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M44.0833 44.0833H34.9167" stroke="#F97316" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="31.25" stroke="#F97316" stroke-width="1.5"></rect>
+</svg>

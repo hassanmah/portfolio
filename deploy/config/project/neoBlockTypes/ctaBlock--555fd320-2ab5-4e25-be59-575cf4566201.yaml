@@ -1,0 +1,76 @@
+childBlocks: null
+conditions: null
+description: ''
+enabled: true
+field: 937f08fb-c57a-4702-a099-98dd7db74e7f # Blocks
+fieldLayouts:
+  694515d2-1c97-4dbc-8193-72d104f4db26:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d64dba0e-b3dd-4726-a5f3-d77f911363a9 # Block ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f761e1b1-4a2d-4cb4-a10a-9beff8ddcfe7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b85cb2e-64d9-43b5-8693-68097a618895 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9857a15c-cbe3-4a45-a6ae-9d9f032cd2c5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ad2057fb-7a69-4edc-add1-60ca888e8e08 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 87032fbd-b65c-4247-8758-70fd9b8180ac
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 13c96ebc-56f6-4f07-bfc2-066ef6497efe # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dcaba240-3236-4b08-a58d-c22ec23b71be
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c7875983-0fde-47b0-84b7-723df4eeca39
+        userCondition: null
+group: null
+groupChildBlockTypes: true
+handle: ctaBlock
+icon: null
+ignorePermissions: true
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+minBlocks: 0
+minChildBlocks: 0
+minSiblingBlocks: 0
+name: CTA
+sortOrder: 5
+topLevel: true

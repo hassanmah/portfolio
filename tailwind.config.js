@@ -314,108 +314,82 @@ module.exports = {
       'header-xxlg': '2450px'
     },
     fluidSize : {
-      ".heading-xl": {
-        min: '26px',
-        max: '48px',
-        lhMin: '38px',
-        lhMax: '64px',
-      },
-      ".heading-lg": {
-        min: '40px',
-        max: '40px',
-        lhMin: '56px',
-        lhMax: '56px',
-      },
-      ".heading-md": {
-        min: '32px',
-        max: '32px',
-        lhMin: '48px',
-        lhMax: '48px',
-      },
-      ".heading-sm": {
-        min: '24px',
-        max: '24px',
-        lhMin: '32px',
-        lhMax: '32px',
-      },
-      ".heading-xs": {
-        min: '18px',
-        max: '18px',
-        lhMin: '24px',
-        lhMax: '24px',
-      },
-      ".caption": {
+      ".body-sm": {
         min: '12px',
         max: '12px',
         lhMin: '16px',
         lhMax: '16px',
       },
+      ".body": {
+        min: '16px',
+        max: '16px',
+        lhMin: '26px',
+        lhMax: '26px',
+      },
       ".body-lg": {
         min: '20px',
         max: '20px',
-        lhMin: '32px',
-        lhMax: '32px',
+        lhMin: '34px',
+        lhMax: '34px',
       },
-      ".body-md": {
-        min: '16px',
-        max: '16px',
-        lhMin: '28px',
-        lhMax: '28px',
+      ".h6": {
+        min: '18px',
+        max: '18px',
+        lhMin: '22px',
+        lhMax: '22px',
       },
-      ".body-sm": {
-        min: '14px',
-        max: '14px',
-        lhMin: '24px',
-        lhMax: '24px',
+      ".h5": {
+        min: '24px',
+        max: '24px',
+        lhMin: '29px',
+        lhMax: '29px',
       },
-      ".quote-lg": {
-        min: '32px',
-        max: '56px',
-        lhMin: '48px',
-        lhMax: '78px',
+      ".h4": {
+        min: '34px',
+        max: '34px',
+        lhMin: '41px',
+        lhMax: '41px',
       },
-      ".quote-xxlg": {
-        min: '32px',
+      ".h3": {
+        min: '40px',
+        max: '40px',
+        lhMin: '50px',
+        lhMax: '50px',
+      },
+      ".h2": {
+        min: '60px',
+        max: '60px',
+        lhMin: '73px',
+        lhMax: '73px',
+      },
+      ".h1": {
+        min: '80px',
         max: '80px',
-        lhMin: '48px',
-        lhMax: '112px',
+        lhMin: '92px',
+        lhMax: '92px',
       },
     },
     extend: {
+      letterSpacing: {
+        'body': '0.02em',
+        'loose': '0.16em',
+      },
       fontFamily: {
-        sans: ['Helvetica Neue', 'arial', 'sans-serif'],
-        serif: ['Denton', 'Georgia', 'sans-serif'],
-
+        inter: ['Inter', 'Helvetica Neue', 'arial', 'sans-serif'],
+        'inter-tight': ['Inter Tight','Helvetica Neue', 'arial', 'sans-serif'],
       },
-      maxWidth: {
-        'form': '655px',
-      },
+      maxWidth: {},
       colors: {
-        'black-light': 'rgba(50, 50, 50, 1)',
-        'grey-mid': 'rgba(131, 131, 131, 1)',
-        'grey-products': 'rgba(250, 250, 250, 1)',
-        'grey-dark': 'rgba(87, 87, 87, 1)',
-        'grey-light': 'rgba(206, 206, 206, 1)',
-        'blue-dark': 'rgba(55, 68, 86, 1)',
-        'blue-light': 'rgba(158, 169, 193, 1)',
-        'mint-dark': 'rgba(161, 179, 173, 1)',
-        'mint-light': 'rgba(218, 232, 224, 1)',
-        'green-dark': 'rgba(40, 75, 71, 1)',
-        'green-light': 'rgba(233, 235, 225, 1)',
-        'sky-blue-dark': 'rgba(136, 164, 175, 1)',
-        'sky-blue-light': 'rgba(236, 236, 236, 1)',
-        'yellow-dark': 'rgba(165, 142, 110, 1)',
-        'yellow-light': 'rgba(247, 220, 174, 1)',
-        'pink-dark': 'rgba(215, 152, 144, 1)',
-        'pink-light': 'rgba(233, 210, 201, 1)',
-        'nav': '#FCFCFC',
-        'nav-border': '#F6F6F2',
-        'field-grey': '#D9D9D9',
-        'black-15': 'rgba(0, 0, 0, 0.15)',
-        'border-hover': 'rgba(246, 246, 242, 1)'
+        'orange': 'rgba(249, 115, 22, 1)',
+        'blue-dark': 'rgba(15, 23, 42, 1)',
+        'white': 'rgba(255, 255, 255, 1.0)',
+        'white-50': 'rgba(255, 255, 255, 0.5)',
+        'white-10': 'rgba(255, 255, 255, 0.1)',
+        'light-black': 'rgba(29, 29, 27, 1)'
       },
-      lineHeight: {
-        'h3': '6rem',
+      shadow: {
+        'card-light': 'box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2)',
+        'card-hard': 'box-shadow: 0px 96px 38px rgba(0, 0, 0, 0.01), 0px 54px 32px rgba(0, 0, 0, 0.05), 0px 24px 24px rgba(0, 0, 0, 0.09), 0px 6px 13px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1)'
       },
       spacing: {
         '60vh': '60vh',
@@ -433,9 +407,8 @@ module.exports = {
         'minus-4': '-1rem'
       },
       borderRadius: {
-        72: "72px",
-        48: "48px",
-        40: "40px"
+        12: "12px",
+        8: "8px",
       },
       fontSize: {
         11: "11px",

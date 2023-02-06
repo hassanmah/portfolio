@@ -1,0 +1,19 @@
+columnSuffix: mfajdqrs
+contentColumnType: text
+fieldGroup: ed4f4722-db0d-4f33-ac6c-827e244388d7 # Common
+handle: subheading
+instructions: null
+name: Subheading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

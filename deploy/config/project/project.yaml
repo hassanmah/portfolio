@@ -1,20 +1,121 @@
-dateModified: 1675696514
+dateModified: 1675719407
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      key: 'section:249aace2-bd89-4989-b2b3-504ad6214021' # Clients
+      type: native
+    -
+      key: 'section:24bb6f49-5a05-4f93-8dea-a874654c6cbd' # Projects
+      type: native
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:339c5328-db0a-4a11-91fb-567215e5cbca' # Services
+      tableAttributes:
+        - 'field:a6b876e1-27af-4290-b76e-235413141039' # Icon
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Structures
+      type: heading
+    -
+      key: 'section:0cb8f772-dc44-4b7e-9676-63945bf54cb7' # Pages
+      type: native
 email:
-  fromEmail: hassan@krafft.digital
+  fromEmail: $EMAIL_ADDRESS
   fromName: Portfolio
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: $EMAIL_ADDRESS
+  template: null
+  transportSettings:
+    password: $GOOGLE_PASSWORD
+    username: $EMAIL_ADDRESS
+  transportType: craft\mail\transportadapters\Gmail
 fs:
+  icons:
+    hasUrls: true
+    name: Icons
+    settings:
+      path: '@webroot/assets/uploads/icons'
+    type: craft\fs\Local
+    url: '@web/assets/uploads/icons'
   images:
     hasUrls: true
     name: Images
     settings:
-      path: '@webroot/assets/uploads'
+      path: '@webroot/assets/uploads/images'
     type: craft\fs\Local
-    url: '@web/assets/uploads'
+    url: '@web/assets/uploads/images'
+  videos:
+    hasUrls: true
+    name: Videos
+    settings:
+      path: '@webroot/assets/uploads/videos'
+    type: craft\fs\Local
+    url: '@web/assets/uploads/videos'
 meta:
   __names__:
+    0cb8f772-dc44-4b7e-9676-63945bf54cb7: Pages # Pages
+    1bd2ee21-62b1-4ccb-88de-f68075a4423a: Images # Images
+    4ad1595b-34de-4602-a12c-a31fd7b2f553: About # About
+    4c74dba2-6366-46e7-b4ae-a02582b4677c: 'Related work' # Related work
+    5d2ba0b1-fb49-4ddd-9890-cd397a5e9f88: Entries # Entries
+    05d35468-8a78-4c4e-9c05-3e5635b35456: 'Logo (footer)' # Logo (footer)
+    6b186c3a-d3e2-4d9b-b349-b37fb2fd2227: 'Background image' # Background image
+    6c870524-7160-4e88-b357-1b6747f3c7ea: Icons # Icons
+    8ab53871-23f1-4e4a-aa3e-2ad3e0857665: Images # Images
+    8f6be66c-9368-4b7e-9f53-400fdc713896: 'Social links' # Social links
+    9af558ff-8f1f-4d0f-ae70-4f0a5c2c5add: Item # Item
+    9b85cb2e-64d9-43b5-8693-68097a618895: Heading # Heading
+    13c96ebc-56f6-4f07-bfc2-066ef6497efe: Link # Link
+    24bb6f49-5a05-4f93-8dea-a874654c6cbd: Projects # Projects
+    28c7f5ca-4920-4e23-8fd1-369583af47ab: Home # Home
+    34ddd9c0-0028-4716-b50c-73aa40ea6920: Caption # Caption
+    51dc1ca6-1aae-44ed-89dd-a7b0b687c681: Image # Image
+    64df5511-450c-476f-bad5-c8bdb50a32d8: Default # Default
+    95efe7fb-840a-4c0c-818b-f44d3458d1b4: SEO # SEO
+    198e01cf-fe33-4de7-9fe1-95b9cb70802e: 'Listing image overlay' # Listing image overlay
+    249aace2-bd89-4989-b2b3-504ad6214021: Clients # Clients
+    339c5328-db0a-4a11-91fb-567215e5cbca: Services # Services
+    555fd320-2ab5-4e25-be59-575cf4566201: CTA # CTA
+    773ad08c-8c39-4df1-9029-2a8b4f7e872e: Image # Image
+    890c3a89-36ab-4d56-99cd-59710425c44a: CTA # CTA
+    932d3d9e-80c2-4456-9702-a476fbd8d6be: Work # Work
+    937f08fb-c57a-4702-a099-98dd7db74e7f: Blocks # Blocks
+    993b0220-7fbc-4c8f-94e6-10a6bffad528: 'Email address' # Email address
+    1047f1b3-790b-447f-87d5-7726dcba5c67: Subheading # Subheading
+    1484d35d-6b08-4143-bec7-e3548c730586: Default # Default
+    1732d711-cc92-4fbd-adc5-0089e90fad79: About # About
+    4541f1d9-e14f-4091-82c8-95b7e8c3ae0d: Video # Video
+    60672f45-b489-43b1-b11c-dab8706a43b7: Page # Page
+    62200b20-36fe-447f-aaec-97df6bb416a1: Website # Website
+    67249a37-36c6-4e25-859f-2b83cd163be0: Form # Form
+    76140e88-ea52-4bcd-9518-7dab11324050: 'Alt title' # Alt title
+    652597c5-d700-4e7d-bcc9-c6499bca66b1: 'Main navigation' # Main navigation
+    08623209-825c-4569-a171-0a31c07cf041: 'Listing image' # Listing image
+    a0d82af4-339f-430f-9bb8-f2f455642252: Videos # Videos
+    a0e4f2eb-7480-4c82-a5e0-1675bebe0a16: Form # Form
+    a6b876e1-27af-4290-b76e-235413141039: Icon # Icon
+    a9064f86-9264-425f-9101-7268b79f4974: Clients # Clients
     a4159753-8a1a-4a33-be53-8b3d4014a610: Portfolio # Portfolio
+    ad2057fb-7a69-4edc-add1-60ca888e8e08: Body # Body
+    bbb252a6-5a9a-42ac-b9c1-d77c07a0582b: 'Available for work?' # Available for work?
     bde7c81d-d2a1-4bc3-976f-6ec01ee758b7: Portfolio # Portfolio
+    c454d863-60f4-46a6-a8f3-51bc5e3e2db8: Links # Links
+    cf5f5e72-28df-4127-a227-73ba21d1716b: Default # Default
+    d64dba0e-b3dd-4726-a5f3-d77f911363a9: 'Block ID' # Block ID
+    d427bda4-aa54-4d50-968f-7c634fad08cd: Text # Text
+    deaa8b20-e3e8-49a2-9555-3f6a7839613e: Services # Services
+    e5fb7200-8192-4c3a-b270-625e56a1197d: Logo # Logo
     ed4f4722-db0d-4f33-ac6c-827e244388d7: Common # Common
     f3d4e367-d7dd-459c-a9de-11dd87a70cdc: Images # Images
 plugins:
@@ -84,8 +185,9 @@ system:
   edition: solo
   live: true
   name: Portfolio
+  retryDuration: null
   schemaVersion: 4.0.0.9
-  timeZone: America/Los_Angeles
+  timeZone: Europe/London
 users:
   allowPublicRegistration: false
   defaultGroup: null

@@ -1,0 +1,19 @@
+columnSuffix: ohkiiplr
+contentColumnType: text
+fieldGroup: 1732d711-cc92-4fbd-adc5-0089e90fad79 # About
+handle: blockId
+instructions: null
+name: 'Block ID'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

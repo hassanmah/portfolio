@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+propagationMethod: all
+siteSettings:
+  a4159753-8a1a-4a33-be53-8b3d4014a610: # Portfolio
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry
+    uriFormat: '{% if level != 1 %}{parent.uri}{% endif %}/{slug}'
+structure:
+  maxLevels: null
+  uid: 16e83952-1589-494d-a752-fa48f7e24c37
+type: structure

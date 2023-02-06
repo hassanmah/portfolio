@@ -1,0 +1,14 @@
+columnSuffix: ltfkysnr
+contentColumnType: boolean
+fieldGroup: 1732d711-cc92-4fbd-adc5-0089e90fad79 # About
+handle: availableForWork
+instructions: null
+name: 'Available for work?'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

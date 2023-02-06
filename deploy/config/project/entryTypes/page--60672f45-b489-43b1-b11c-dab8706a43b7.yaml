@@ -1,0 +1,133 @@
+fieldLayouts:
+  9642a87c-37f7-4d90-9aae-2f90a6bd682e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0c913aed-48a0-4add-8e8b-73a7d5fd0513
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 76140e88-ea52-4bcd-9518-7dab11324050 # Alt title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43fb2f77-cb16-484f-8632-fa13c316dd2a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 937f08fb-c57a-4702-a099-98dd7db74e7f # Blocks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0eb9fb26-65da-45e3-ba2c-0ac1f91491e5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8d576c52-0b6a-4dde-8e78-06dda897920d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6b186c3a-d3e2-4d9b-b349-b37fb2fd2227 # Background image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a60e2a48-006c-4a51-8fb4-f86501b0dc13
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1047f1b3-790b-447f-87d5-7726dcba5c67 # Subheading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b7c1dabd-ddec-4b25-9cfa-1a466a827d04
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: a94f9e87-f8c1-49c1-a66e-1feaf8b6678d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c454d863-60f4-46a6-a8f3-51bc5e3e2db8 # Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8fc578cf-2558-49eb-9ee5-53e694de0f66
+            userCondition: null
+            warning: null
+            width: 100
+        name: Navigation
+        uid: 214b18dd-76fb-489a-af8f-4eaa105c11dd
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 95efe7fb-840a-4c0c-818b-f44d3458d1b4 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e1618829-d1d2-4da8-85d3-7e989b880a4d
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 8eaa6ec0-a65d-4859-a486-b6571720e73e
+        userCondition: null
+handle: page
+hasTitleField: true
+name: Page
+section: 0cb8f772-dc44-4b7e-9676-63945bf54cb7 # Pages
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

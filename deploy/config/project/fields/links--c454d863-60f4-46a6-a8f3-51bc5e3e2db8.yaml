@@ -1,0 +1,30 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: ed4f4722-db0d-4f33-ac6c-827e244388d7 # Common
+handle: links
+instructions: null
+name: Links
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 784300651
+  columns:
+    __assoc__:
+      -
+        - 9af558ff-8f1f-4d0f-ae70-4f0a5c2c5add # Item
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_links}}'
+  fieldLayout: table
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField
