@@ -1,0 +1,12 @@
+
+{% set elementType = "hybridinteractive\\contactformextensions\\elements\\Submission" %}
+{% extends '_layouts/elementindex' %}
+
+{% set title = "Submissions" |t %}
+
+{% if crumbs is not defined %}
+    {% set crumbs = [
+        { label: craft.contactFormExtensions.name, url: url('contact-form-extensions') }
+    ] %}
+{% endif %}
+

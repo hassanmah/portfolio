@@ -1,7 +1,15 @@
 {
   "require": {
     "craftcms/cms": "^4.3.5",
+    "craftcms/contact-form": "3.0.0",
+    "craftcms/contact-form-honeypot": "2.0.0",
     "craftcms/redactor": "3.0.3",
+    "ether/seo": "v4.0.3",
+    "hybridinteractive/craft-contact-form-extensions": "4.2.2",
+    "sebastianlenz/linkfield": "2.1.5",
+    "spicyweb/craft-neo": "3.6.2",
+    "verbb/image-resizer": "3.0.4",
+    "verbb/super-table": "3.0.7",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

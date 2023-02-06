@@ -1,4 +1,4 @@
-dateModified: 1675695191
+dateModified: 1675695836
 email:
   fromEmail: hassan@krafft.digital
   fromName: Portfolio
@@ -9,10 +9,43 @@ meta:
     bde7c81d-d2a1-4bc3-976f-6ec01ee758b7: Portfolio # Portfolio
     ed4f4722-db0d-4f33-ac6c-827e244388d7: Common # Common
 plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  image-resizer:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: CF5JXKB2TT2JM5U0O9BS17EZ
+    schemaVersion: 3.6.2
   redactor:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
 system:
   edition: solo
   live: true

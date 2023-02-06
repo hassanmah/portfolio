@@ -1,0 +1,62 @@
+{
+  "name": "craftcms/contact-form-honeypot",
+  "description": "Add a honeypot captcha to your Craft CMS contact form",
+  "type": "craft-plugin",
+  "keywords": [
+    "cms",
+    "craftcms",
+    "contact",
+    "form",
+    "honeypot",
+    "yii2"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pixel & Tonic",
+      "homepage": "https://pixelandtonic.com/"
+    }
+  ],
+  "support": {
+    "email": "support@craftcms.com",
+    "issues": "https://github.com/craftcms/contact-form-honeypot/issues?state=open",
+    "source": "https://github.com/craftcms/contact-form-honeypot",
+    "docs": "https://github.com/craftcms/contact-form-honeypot/blob/main/README.md",
+    "rss": "https://github.com/craftcms/contact-form-honeypot/commits/main.atom"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "craftcms/cms": "^4.0.0-RC3"
+  },
+  "require-dev": {
+    "craftcms/contact-form": "*",
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main",
+    "craftcms/rector": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "craft\\contactform\\honeypot\\": "src/"
+    }
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "extra": {
+    "name": "Contact Form Honeypot",
+    "handle": "contact-form-honeypot",
+    "documentationUrl": "https://github.com/craftcms/contact-form-honeypot/blob/main/README.md"
+  },
+  "config": {
+    "platform": {
+      "php": "8.0.2"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}

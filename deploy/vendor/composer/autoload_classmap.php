@@ -15,4 +15,6 @@ return array(
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+    'typedlinkfield\\Plugin' => $vendorDir . '/sebastianlenz/linkfield/legacy/Plugin.php',
+    'typedlinkfield\\fields\\LinkField' => $vendorDir . '/sebastianlenz/linkfield/legacy/fields/LinkField.php',
 );
