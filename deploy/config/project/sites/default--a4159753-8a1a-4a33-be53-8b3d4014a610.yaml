@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: Portfolio
+primary: true
+siteGroup: bde7c81d-d2a1-4bc3-976f-6ec01ee758b7 # Portfolio
+sortOrder: 1

@@ -1,0 +1,22 @@
+dateModified: 1675694753
+email:
+  fromEmail: hassan@krafft.digital
+  fromName: Portfolio
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    a4159753-8a1a-4a33-be53-8b3d4014a610: Portfolio # Portfolio
+    bde7c81d-d2a1-4bc3-976f-6ec01ee758b7: Portfolio # Portfolio
+    ed4f4722-db0d-4f33-ac6c-827e244388d7: Common # Common
+system:
+  edition: solo
+  live: true
+  name: Portfolio
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
