@@ -1,4 +1,4 @@
-dateModified: 1675694753
+dateModified: 1675695191
 email:
   fromEmail: hassan@krafft.digital
   fromName: Portfolio
@@ -8,6 +8,11 @@ meta:
     a4159753-8a1a-4a33-be53-8b3d4014a610: Portfolio # Portfolio
     bde7c81d-d2a1-4bc3-976f-6ec01ee758b7: Portfolio # Portfolio
     ed4f4722-db0d-4f33-ac6c-827e244388d7: Common # Common
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
