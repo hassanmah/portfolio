@@ -97,6 +97,31 @@
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/theiconic/name-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/lsolesen/pel" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/ether/seo" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/sebastianlenz/craft-utils" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/sebastianlenz/linkfield" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/albertcht/invisible-recaptcha" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/bus" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/container" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/pipeline" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/events" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/view" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/verbb/base" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/verbb/super-table" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/verbb/field-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/verbb/image-resizer" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/verbb/cloner" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/hybridinteractive/craft-contact-form-extensions" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/contact-form-honeypot" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/contact-form" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/spicyweb/craft-neo" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

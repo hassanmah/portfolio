@@ -166,4 +166,40 @@ return array (
     'developerUrl' => 'https://ethercreative.co.uk',
     'documentationUrl' => 'https://github.com/ethercreative/seo/blob/v3/README.md',
   ),
+  'verbb/field-manager' => 
+  array (
+    'class' => 'verbb\\fieldmanager\\FieldManager',
+    'basePath' => $vendorDir . '/verbb/field-manager/src',
+    'handle' => 'field-manager',
+    'aliases' => 
+    array (
+      '@verbb/fieldmanager' => $vendorDir . '/verbb/field-manager/src',
+    ),
+    'name' => 'Field Manager',
+    'version' => '3.0.5',
+    'description' => 'Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.',
+    'developer' => 'Verbb',
+    'developerUrl' => 'https://verbb.io',
+    'developerEmail' => 'support@verbb.io',
+    'documentationUrl' => 'https://github.com/verbb/field-manager',
+    'changelogUrl' => 'https://raw.githubusercontent.com/verbb/field-manager/craft-4/CHANGELOG.md',
+  ),
+  'verbb/cloner' => 
+  array (
+    'class' => 'verbb\\cloner\\Cloner',
+    'basePath' => $vendorDir . '/verbb/cloner/src',
+    'handle' => 'cloner',
+    'aliases' => 
+    array (
+      '@verbb/cloner' => $vendorDir . '/verbb/cloner/src',
+    ),
+    'name' => 'Cloner',
+    'version' => '2.0.3',
+    'description' => 'Easily clone sections, entry types, category/tag/user groups, volumes, asset transforms and more.',
+    'developer' => 'Verbb',
+    'developerUrl' => 'https://verbb.io',
+    'developerEmail' => 'support@verbb.io',
+    'documentationUrl' => 'https://github.com/verbb/cloner',
+    'changelogUrl' => 'https://raw.githubusercontent.com/verbb/cloner/craft-4/CHANGELOG.md',
+  ),
 );

@@ -1,18 +1,38 @@
-dateModified: 1675695836
+dateModified: 1675696514
 email:
   fromEmail: hassan@krafft.digital
   fromName: Portfolio
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/assets/uploads'
+    type: craft\fs\Local
+    url: '@web/assets/uploads'
 meta:
   __names__:
     a4159753-8a1a-4a33-be53-8b3d4014a610: Portfolio # Portfolio
     bde7c81d-d2a1-4bc3-976f-6ec01ee758b7: Portfolio # Portfolio
     ed4f4722-db0d-4f33-ac6c-827e244388d7: Common # Common
+    f3d4e367-d7dd-459c-a9de-11dd87a70cdc: Images # Images
 plugins:
+  cloner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   contact-form:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Portfolio'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: $EMAIL_ADDRESS
   contact-form-extensions:
     edition: standard
     enabled: true
@@ -21,10 +41,24 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      honeypotParam: honeypot
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   image-resizer:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+    settings:
+      enabled: true
+      imageHeight: 0
+      imageQuality: 100
+      imageWidth: 2500
+      nonDestructiveCrop: false
+      nonDestructiveResize: false
+      skipLarger: true
   neo:
     edition: standard
     enabled: true

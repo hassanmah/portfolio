@@ -26,6 +26,8 @@ return array(
     'voku\\' => array($vendorDir . '/voku/portable-ascii/src/voku', $vendorDir . '/voku/portable-utf8/src/voku', $vendorDir . '/voku/stop-words/src/voku'),
     'verbb\\supertable\\' => array($vendorDir . '/verbb/super-table/src'),
     'verbb\\imageresizer\\' => array($vendorDir . '/verbb/image-resizer/src'),
+    'verbb\\fieldmanager\\' => array($vendorDir . '/verbb/field-manager/src'),
+    'verbb\\cloner\\' => array($vendorDir . '/verbb/cloner/src'),
     'verbb\\base\\' => array($vendorDir . '/verbb/base/src'),
     'samdark\\log\\tests\\' => array($vendorDir . '/samdark/yii2-psr-log-target/tests'),
     'samdark\\log\\' => array($vendorDir . '/samdark/yii2-psr-log-target/src'),

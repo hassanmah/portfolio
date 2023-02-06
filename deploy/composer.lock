@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "165ba7f36d9b2eb7cf7761ac635b304d",
+    "content-hash": "4cc163da5a8e36768460535302f17bf2",
     "packages": [
         {
             "name": "albertcht/invisible-recaptcha",
@@ -5122,6 +5122,111 @@
             ],
             "description": "Common utilities and building-blocks for Verbb plugins for Craft CMS.",
             "time": "2022-09-30T11:02:57+00:00"
+        },
+        {
+            "name": "verbb/cloner",
+            "version": "2.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/cloner/zipball/5e954f4a902cb55d8464ad9c406c4960606811e4",
+                "reference": "5e954f4a902cb55d8464ad9c406c4960606811e4",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2",
+                "verbb/base": "^2.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Cloner",
+                "handle": "cloner",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/cloner/craft-4/CHANGELOG.md",
+                "class": "verbb\\cloner\\Cloner"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\cloner\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Easily clone sections, entry types, category/tag/user groups, volumes, asset transforms and more.",
+            "keywords": [
+                "clone",
+                "cloner",
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/cloner/issues?state=open",
+                "source": "https://github.com/verbb/cloner",
+                "docs": "https://github.com/verbb/cloner",
+                "rss": "https://github.com/verbb/cloner/commits/v2.atom"
+            },
+            "time": "2022-10-08T18:22:39+00:00"
+        },
+        {
+            "name": "verbb/field-manager",
+            "version": "3.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/field-manager/zipball/c537715ded4ec3bc34191ffbd85a8fb51db6898b",
+                "reference": "c537715ded4ec3bc34191ffbd85a8fb51db6898b",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2",
+                "verbb/base": "^2.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Field Manager",
+                "handle": "field-manager",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/field-manager/craft-4/CHANGELOG.md",
+                "class": "verbb\\fieldmanager\\FieldManager"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\fieldmanager\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "field manager"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/field-manager/issues?state=open",
+                "source": "https://github.com/verbb/field-manager",
+                "docs": "https://github.com/verbb/field-manager",
+                "rss": "https://github.com/verbb/field-manager/commits/v2.atom"
+            },
+            "time": "2023-01-05T05:25:23+00:00"
         },
         {
             "name": "verbb/image-resizer",

@@ -19,13 +19,13 @@ class ComposerStaticInitf63f6cbef3036bfe621e2fff1bea8f41
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
-        '60799491728b879e74601d83e38b2cad' => __DIR__ . '/..' . '/illuminate/collections/helpers.php',
         'b46ad4fe52f4d1899a2951c7e6ea56b0' => __DIR__ . '/..' . '/voku/portable-utf8/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '60799491728b879e74601d83e38b2cad' => __DIR__ . '/..' . '/illuminate/collections/helpers.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
-        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '65380ab4d81167209b0a4fac46641984' => __DIR__ . '/..' . '/voku/arrayy/src/Create.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
@@ -59,6 +59,8 @@ class ComposerStaticInitf63f6cbef3036bfe621e2fff1bea8f41
             'voku\\' => 5,
             'verbb\\supertable\\' => 17,
             'verbb\\imageresizer\\' => 19,
+            'verbb\\fieldmanager\\' => 19,
+            'verbb\\cloner\\' => 13,
             'verbb\\base\\' => 11,
         ),
         's' => 
@@ -311,6 +313,14 @@ class ComposerStaticInitf63f6cbef3036bfe621e2fff1bea8f41
         'verbb\\imageresizer\\' => 
         array (
             0 => __DIR__ . '/..' . '/verbb/image-resizer/src',
+        ),
+        'verbb\\fieldmanager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/verbb/field-manager/src',
+        ),
+        'verbb\\cloner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/verbb/cloner/src',
         ),
         'verbb\\base\\' => 
         array (
