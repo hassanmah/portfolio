@@ -6,7 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/yiisoft/yii2" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/yiisoft/yii2-shell" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/yiisoft/yii2-queue" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/creocoder/yii2-nested-sets" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/yiisoft/yii2-debug" />
@@ -28,7 +27,6 @@
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/polyfill-php80" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/justinrainbow/json-schema" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/twig/twig" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/mime" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/mikehaertl/php-shellcommand" />
@@ -36,10 +34,8 @@
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/polyfill-iconv" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/http-client" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/deprecation-contracts" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/psy/psysh" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/finder" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/event-dispatcher" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/http-client-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/polyfill-intl-grapheme" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/ezyang/htmlpurifier" />
@@ -48,7 +44,6 @@
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/plugin-installer" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/oauth2-craftid" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/seld/jsonlint" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/generator" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/cms" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/samdark/yii2-psr-log-target" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/server-check" />
@@ -81,8 +76,6 @@
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/psr/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/psr/simple-cache" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/nikic/php-parser" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/theiconic/name-parser" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/league/oauth2-client" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/composer" />
@@ -96,11 +89,13 @@
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/elvanto/litemoji" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/phpdocumentor/type-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/phpdocumentor/reflection-common" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/nette/utils" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/collections" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/illuminate/contracts" />
-      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/nette/php-generator" />
       <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/redactor" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/craftcms/html-field" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/deploy/vendor/symfony/var-dumper" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

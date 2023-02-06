@@ -3,7 +3,6 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/deploy/vendor/yiisoft/yii2" />
-      <path value="$PROJECT_DIR$/deploy/vendor/yiisoft/yii2-shell" />
       <path value="$PROJECT_DIR$/deploy/vendor/yiisoft/yii2-queue" />
       <path value="$PROJECT_DIR$/deploy/vendor/creocoder/yii2-nested-sets" />
       <path value="$PROJECT_DIR$/deploy/vendor/yiisoft/yii2-debug" />
@@ -25,7 +24,6 @@
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/deploy/vendor/justinrainbow/json-schema" />
       <path value="$PROJECT_DIR$/deploy/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/deploy/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/deploy/vendor/mikehaertl/php-shellcommand" />
@@ -33,10 +31,8 @@
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/http-client" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/deploy/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/deploy/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/deploy/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/deploy/vendor/ezyang/htmlpurifier" />
@@ -45,7 +41,6 @@
       <path value="$PROJECT_DIR$/deploy/vendor/craftcms/plugin-installer" />
       <path value="$PROJECT_DIR$/deploy/vendor/craftcms/oauth2-craftid" />
       <path value="$PROJECT_DIR$/deploy/vendor/seld/jsonlint" />
-      <path value="$PROJECT_DIR$/deploy/vendor/craftcms/generator" />
       <path value="$PROJECT_DIR$/deploy/vendor/craftcms/cms" />
       <path value="$PROJECT_DIR$/deploy/vendor/samdark/yii2-psr-log-target" />
       <path value="$PROJECT_DIR$/deploy/vendor/craftcms/server-check" />
@@ -78,8 +73,6 @@
       <path value="$PROJECT_DIR$/deploy/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/deploy/vendor/psr/log" />
       <path value="$PROJECT_DIR$/deploy/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/deploy/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/deploy/vendor/theiconic/name-parser" />
       <path value="$PROJECT_DIR$/deploy/vendor/league/oauth2-client" />
       <path value="$PROJECT_DIR$/deploy/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/deploy/vendor/composer" />
@@ -93,11 +86,13 @@
       <path value="$PROJECT_DIR$/deploy/vendor/elvanto/litemoji" />
       <path value="$PROJECT_DIR$/deploy/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/deploy/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/deploy/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/deploy/vendor/illuminate/collections" />
       <path value="$PROJECT_DIR$/deploy/vendor/illuminate/contracts" />
-      <path value="$PROJECT_DIR$/deploy/vendor/nette/php-generator" />
       <path value="$PROJECT_DIR$/deploy/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/deploy/vendor/craftcms/redactor" />
+      <path value="$PROJECT_DIR$/deploy/vendor/craftcms/html-field" />
+      <path value="$PROJECT_DIR$/deploy/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/deploy/vendor/symfony/var-dumper" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
