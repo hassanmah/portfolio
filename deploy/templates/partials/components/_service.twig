@@ -3,3 +3,22 @@
 {# Icon #}
 {# Title #}
 {# Body #}
+
+<div class="bg-white rounded-8 border border-black-10 p-8 flex flex-col drop-shadow-card-light h-full">
+  {% if item.icon %}
+    <div class="w-16 h-16 mb-12">
+      {{ svg(item.icon.one() )}}
+    </div>
+    <div>
+      <h5 class="h5 font-inter-tight font-bold tracking-body  text-light-black mb-4">
+        {{ item.title }}
+      </h5>
+      {% if item.body %}
+        <div class="prose body tracking-body text-light-black">
+          {{item.body}}
+        </div>
+      {% endif %}
+
+    </div>
+  {% endif %}
+</div>

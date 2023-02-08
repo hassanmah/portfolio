@@ -2,3 +2,15 @@
 {# Link #}
 {# Color #}
 {# Text color #}
+
+<a class="py-4 px-6 rounded-full inline-flex items-center uppercase {{textColorClass|default('text-white')}} group {{bgColorClass|default('bg-white')}} inter font-bold body" href="{{link}}">
+  <span>
+    {{text|default('See more')}}
+  </span>
+  {% if showIcon %}
+    <svg class="w-4 h-4 ml-2 group-hover:ml-3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 17.25L19.5 12L14 6.75" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M2.75 12L17 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  {% endif %}
+</a>

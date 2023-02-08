@@ -3,9 +3,22 @@
 @import "tailwindcss/utilities";
 
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
-.label {
+.label, .heading {
   margin-left: 74px;
 }
+
+.heading:before {
+  content:" ";
+  display: block;
+  height: 3px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: rgba(29, 29, 27, 1.0);
+  margin-left: -74px;
+}
+
 .label:before {
   content:" ";
   display: block;
@@ -16,4 +29,15 @@
   left: 0;
   background: rgba(255, 255, 255, 0.5);
   margin-left: -74px;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

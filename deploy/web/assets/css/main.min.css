@@ -692,6 +692,21 @@ select {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.prose {
+  color: #000;
+}
+.prose :where(ul):not(:where([class~="not-prose"] *)) {
+  padding-left: 20px;
+}
+.prose :where(li):not(:where([class~="not-prose"] *)) {
+  color: #000;
+  font-size: 17px;
+  margin-bottom: 8px;
+  list-style: disc;
+}
+.prose :where(li):not(:where([class~="not-prose"] *)) a {
+  text-decoration: underline;
+}
 .prose-heading {
   color: #000;
   font-family: Helvetica Neue;
@@ -811,11 +826,26 @@ svg {
 .mt-desktop-lg {
   margin-top: 200px;
 }
+.mb-130 {
+  margin-bottom: 130px;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .mt-6 {
   margin-top: 1.5rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
 }
 .mt-20 {
   margin-top: 5rem;
@@ -826,11 +856,20 @@ svg {
 .flex {
   display: flex;
 }
+.inline-flex {
+  display: inline-flex;
+}
 .hidden {
   display: none;
 }
 .h-full {
   height: 100%;
+}
+.h-4 {
+  height: 1rem;
+}
+.h-16 {
+  height: 4rem;
 }
 .max-h-\[320px\] {
   max-height: 320px;
@@ -840,6 +879,15 @@ svg {
 }
 .w-2\/3 {
   width: 66.666667%;
+}
+.w-4 {
+  width: 1rem;
+}
+.w-16 {
+  width: 4rem;
+}
+.w-1\/3 {
+  width: 33.333333%;
 }
 .max-w-\[574px\] {
   max-width: 574px;
@@ -903,6 +951,12 @@ svg {
 .overflow-visible {
   overflow: visible;
 }
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-8 {
+  border-radius: 8px;
+}
 .border {
   border-width: 1px;
 }
@@ -910,9 +964,15 @@ svg {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
+.border-black-10 {
+  border-color: rgba(0, 0, 0, 0.1);
+}
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-white {
+  background-color: rgba(255, 255, 255, 1.0);
 }
 .bg-transparent {
   background-color: transparent;
@@ -921,8 +981,8 @@ svg {
   -o-object-fit: cover;
   object-fit: cover;
 }
-.p-10 {
-  padding: 2.5rem;
+.p-8 {
+  padding: 2rem;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -931,6 +991,14 @@ svg {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .py-4 {
   padding-top: 1rem;
@@ -944,9 +1012,8 @@ svg {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.pb-4 {
+  padding-bottom: 1rem;
 }
 .pt-5 {
   padding-top: 1.25rem;
@@ -966,6 +1033,9 @@ svg {
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.font-inter {
+  font-family: Inter, Helvetica Neue, arial, sans-serif;
+}
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
@@ -978,11 +1048,14 @@ svg {
 .font-light {
   font-weight: 300;
 }
-.font-extrabold {
-  font-weight: 800;
+.font-semibold {
+  font-weight: 600;
 }
 .font-bold {
   font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
 }
 .uppercase {
   text-transform: uppercase;
@@ -990,11 +1063,11 @@ svg {
 .italic {
   font-style: italic;
 }
-.tracking-loose {
-  letter-spacing: 0.16em;
-}
 .tracking-body {
   letter-spacing: 0.02em;
+}
+.tracking-loose {
+  letter-spacing: 0.16em;
 }
 .text-black {
   --tw-text-opacity: 1;
@@ -1003,11 +1076,22 @@ svg {
 .text-white {
   color: rgba(255, 255, 255, 1.0);
 }
+.text-blue-dark {
+  color: rgba(15, 23, 42, 1.0);
+}
+.text-light-black {
+  color: rgba(29, 29, 27, 1.0);
+}
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5);
 }
 .underline {
   text-decoration-line: underline;
+}
+.drop-shadow-card-light {
+  --tw-drop-shadow: drop-shadow(0px 7px 29px rgba(100, 100, 111, 0.2));
+  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .body {
   font-size: calc(16px + 0 * ( (100vw - 400px) / 1384));
@@ -1061,6 +1145,24 @@ svg {
   .h6 {
     font-size: 18px;
     line-height: 22px;
+  }
+}
+.h5 {
+  font-size: calc(24px + 0 * ( (100vw - 400px) / 1376));
+  line-height: calc(29px + 0 * ( (100vw - 400px) / 1371));
+}
+@media (min-width: 1400px) {
+
+  .h5 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@media (max-width: 400px) {
+
+  .h5 {
+    font-size: 24px;
+    line-height: 29px;
   }
 }
 .h3 {
@@ -1118,8 +1220,19 @@ svg {
   }
 }
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
-.label {
+.label, .heading {
   margin-left: 74px;
+}
+.heading:before {
+  content:" ";
+  display: block;
+  height: 3px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: rgba(29, 29, 27, 1.0);
+  margin-left: -74px;
 }
 .label:before {
   content:" ";
@@ -1132,6 +1245,15 @@ svg {
   background: rgba(255, 255, 255, 0.5);
   margin-left: -74px;
 }
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1141,6 +1263,9 @@ svg {
 }
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+.group:hover .group-hover\:ml-3 {
+  margin-left: 0.75rem;
 }
 .prose-h2\:mb-xs :is(:where(h2):not(:where([class~="not-prose"] *))) {
   margin-bottom: 24px;
@@ -1208,10 +1333,18 @@ svg {
     align-items: center;
   }
 
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
   }
 }
 @media (min-width: 878px) {

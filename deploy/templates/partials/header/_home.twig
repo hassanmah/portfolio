@@ -7,7 +7,9 @@
 
 <header class="container" style="background: url('/assets/img/bg-grid-large-3.png'), rgba(15, 23, 42, 1);background-size: contain; background-position: bottom; background-repeat: no-repeat">
   <div class="row">
-    <div class="p-10">
+
+    {% include 'partials/_navigation' %}
+
       <div class="flex items-end">
         <div class="max-w-[900px]">
           <h1 class="text-white font-extrabold font-inter-tight h1 tracking-body">
@@ -25,7 +27,7 @@
           {% if entry.clients %}
             <div class="flex flex-col mt-20">
               {% include 'partials/components/_label' with {
-                'labelText': "trusted by"
+                'text': "trusted by"
               } only %}
 
               <div class="flex flex-row items-center -mx-4 mt-4">
@@ -41,7 +43,4 @@
         </div>
       </div>
     </div>
-
-
-  </div>
 </header>

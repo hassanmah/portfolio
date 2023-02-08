@@ -7,7 +7,7 @@
       "uuidString" : "C9BDF77A-8079-46C9-8526-2210C03D4830"
     }
   ],
-  "creatorBuild" : "34434",
+  "creatorBuild" : "34448",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -1437,6 +1437,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/3d\/3dbb85ae1bd781bb8bcd59ad956fe7a60a21872e38c915d010fefdbb95d3eb35.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/3e\/3ea1a4277548ba72b88c7e886d9ceefb7c6d848a44d3f859713785532282c01b.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/3e\/3ea1a4277548ba72b88c7e886d9ceefb7c6d848a44d3f859713785532282c01b.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/4a\/4ae56e0f3185e6b0f9a1dd34f07ff485f2130418f9a31f361eecba63be61257a.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1773,6 +1781,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/36\/362f748ed6f0696fcb8bb43a06c4e8a201cdc43872c1665f0d6a62f6df28a85c.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/37\/37f3323f0376ce2b68f337c1e61edfdac4635b3a175c32ba919a990c9c38ea59.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/37\/37f3323f0376ce2b68f337c1e61edfdac4635b3a175c32ba919a990c9c38ea59.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/38\/3810884a18c964b7c6129b6e654c408287d49523ddc8efa1f0dc3a35b5afea40.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1907,6 +1923,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/58\/58a41e62f8877d1bc1696c81929c4fd387611f3434ec47daa8e55031e431b12b.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/58\/5846d5646021e5f501e75a0ef84eb01531d8206196f624c7d506ea28170d74df.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/58\/5846d5646021e5f501e75a0ef84eb01531d8206196f624c7d506ea28170d74df.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/61\/616b729c583e4950a0c9334fe81806218bf9380c69a16523aee8b4834151a0d2.php" : {
@@ -2693,6 +2717,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/ea\/ea3f6515b67d750a9a295412a4746cdbc730971524a974df6f6a65e9eb291e2a.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/eb\/eb1e1fc7760c5cbec60d893b68c67732b45ab42f88d65900fe00619c4dce8a2c.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/eb\/eb1e1fc7760c5cbec60d893b68c67732b45ab42f88d65900fe00619c4dce8a2c.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/eb\/eb5f243a03258dff7ecc9724829ba2ae62b1f3e330a4f2e84b3fa5e0d4331663.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3022,6 +3054,14 @@
       "oAP" : "\/deploy\/templates\/partials\/_blocks.twig",
       "oF" : 0
     },
+    "\/deploy\/templates\/partials\/_colors.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/_colors.twig",
+      "oF" : 0
+    },
     "\/deploy\/templates\/partials\/_footer.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3076,6 +3116,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/deploy\/templates\/partials\/blocks\/_cta.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/blocks\/_services.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/blocks\/_services.twig",
       "oF" : 0
     },
     "\/deploy\/templates\/partials\/components\/_button.twig" : {
@@ -85379,6 +85427,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/web\/assets\/img\/bg-grid-large-3.png" : {
+      "ft" : 32768,
+      "iS" : 2334203,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/assets\/img\/bg-grid-large-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/web\/assets\/img\/bg-grid-large.png" : {
       "ft" : 32768,
       "iS" : 10990,
@@ -85424,6 +85485,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/web\/assets\/img\/port1.jpg" : {
+      "ft" : 16384,
+      "iS" : 372149,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/assets\/img\/port1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/web\/assets\/js\/app.min.js" : {
       "bF" : 0,
@@ -94628,6 +94702,10 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
+      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "{'ignoreExpressions': false, 'max': 1}"
@@ -94788,6 +94866,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 0
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -94926,6 +95007,9 @@
         "active" : 0
       },
       "no-new-func" : {
+        "active" : 0
+      },
+      "no-new-native-nonconstructor" : {
         "active" : 0
       },
       "no-new-object" : {
@@ -95742,7 +95826,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,

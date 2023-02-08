@@ -385,11 +385,19 @@ module.exports = {
         'white': 'rgba(255, 255, 255, 1.0)',
         'white-50': 'rgba(255, 255, 255, 0.5)',
         'white-10': 'rgba(255, 255, 255, 0.1)',
-        'light-black': 'rgba(29, 29, 27, 1.0)'
+        'light-black': 'rgba(29, 29, 27, 1.0)',
+        'black-10': 'rgba(0, 0, 0, 0.1)',
+
       },
-      shadow: {
-        'card-light': 'box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2)',
-        'card-hard': 'box-shadow: 0px 96px 38px rgba(0, 0, 0, 0.01), 0px 54px 32px rgba(0, 0, 0, 0.05), 0px 24px 24px rgba(0, 0, 0, 0.09), 0px 6px 13px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1)'
+      dropShadow: {
+        'card-light': '0px 7px 29px rgba(100, 100, 111, 0.2)',
+        'card-hard': [
+          '0px 96px 38px rgba(0, 0, 0, 0.01)',
+          '0px 54px 32px rgba(0, 0, 0, 0.05)',
+          '0px 24px 24px rgba(0, 0, 0, 0.09)',
+          '0px 6px 13px rgba(0, 0, 0, 0.1)',
+          '0px 0px 0px rgba(0, 0, 0, 0.1)'
+        ]
       },
       spacing: {
         '60vh': '60vh',
@@ -404,6 +412,7 @@ module.exports = {
         107: '30rem',
         108: '31rem',
         76: '19rem',
+        130: '130px',
         'minus-4': '-1rem'
       },
       borderRadius: {
@@ -444,16 +453,6 @@ module.exports = {
   },
   corePlugins: {
     container: false,
-    gridTemplateColumns: false,
-    gridColumn: false,
-    gridColumnStart: false,
-    gridColumnEnd: false,
-    gridTemplateRows: false,
-    gridRow: false,
-    gridRowStart: false,
-    gridRowEnd: false,
-    gridAutoFlow: false,
-    gap: false,
   },
   variants: {
     textColor: ['responsive', 'first', 'hover', 'focus', 'group-hover'],
