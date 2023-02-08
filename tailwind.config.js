@@ -380,12 +380,12 @@ module.exports = {
       },
       maxWidth: {},
       colors: {
-        'orange': 'rgba(249, 115, 22, 1)',
-        'blue-dark': 'rgba(15, 23, 42, 1)',
+        'orange': 'rgba(249, 115, 22, 1.0)',
+        'blue-dark': 'rgba(15, 23, 42, 1.0)',
         'white': 'rgba(255, 255, 255, 1.0)',
         'white-50': 'rgba(255, 255, 255, 0.5)',
         'white-10': 'rgba(255, 255, 255, 0.1)',
-        'light-black': 'rgba(29, 29, 27, 1)'
+        'light-black': 'rgba(29, 29, 27, 1.0)'
       },
       shadow: {
         'card-light': 'box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2)',
@@ -534,8 +534,8 @@ module.exports = {
           "@screen md": {
             paddingLeft: "3rem",
             paddingRight: "3rem",
-            paddingTop: "8rem",
-            paddingBottom: "0",
+            paddingTop: "2.5rem",
+            paddingBottom: "2.5rem",
             margin: '0 auto',
           },
         },

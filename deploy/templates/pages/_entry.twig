@@ -1,4 +1,8 @@
 {% switch entry.type %}
-{#  {% case "contact" %}#}
-{#    {% include "pages/page/_contact" %}#}
+  {% case "home" %}
+    {% include "pages/page/_home" %}
+  {% case "page" %}
+    {% include "pages/page/_page" %}
+  {% case "contact" %}
+    {% include "pages/page/_contact" %}
 {% endswitch %}

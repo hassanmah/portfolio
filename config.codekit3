@@ -1269,6 +1269,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/0e\/0e959aa8b237beeaecb34697034f194bccca04ffac2b37a886bcdac880957cbb.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/01\/01ff5171e33d8ada3dc2f38ac35d22d930f0e91b1fda14e14f614b9186fd4caa.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/01\/01ff5171e33d8ada3dc2f38ac35d22d930f0e91b1fda14e14f614b9186fd4caa.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/1a\/1a6335fdb56c35750c28f37e0502c24a906199b6cc61c100e6d5c80c72cfeea1.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1301,6 +1309,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/2a\/2a874f297594d753f1dc19a2d6d74c9ac38560954e67f0fe6c3969d59bfb72b2.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/2a\/2ab455e584276c5e2bc2827d1e99878043ad045afbcc7f79b367183c9b706b6f.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/2a\/2ab455e584276c5e2bc2827d1e99878043ad045afbcc7f79b367183c9b706b6f.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/2b\/2ba92e5db17384b07682890bd9b716ebdef499758846254cf3effdf415645d2b.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1323,6 +1339,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/2c\/2c1083c984fdcc2a6c50a63ae9f19322c9f2cbda07106cbf7d4623387acbd977.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/2d\/2dea005ac57dd20d600acd4382f59c01626f851740f7d463c57784d3065ec5b3.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/2d\/2dea005ac57dd20d600acd4382f59c01626f851740f7d463c57784d3065ec5b3.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/2e\/2e8fece27c471626bfa06956186bb575c791c8298a5e64f933d2fb57564340d8.php" : {
@@ -1349,6 +1373,22 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/03\/032082970338a834c6504ed584dbf58b9384f42555e6b56fd35708d28f6af902.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/3b\/3b8ab86ac21f21fec8be5aee9537b7082d33dddca4c5eea68a9a2152d1d0abac.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/3b\/3b8ab86ac21f21fec8be5aee9537b7082d33dddca4c5eea68a9a2152d1d0abac.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/3b\/3bea527ff62c0588f24b3b4b0c270ddea1b64f266825702a1bbfc358ff5784b4.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/3b\/3bea527ff62c0588f24b3b4b0c270ddea1b64f266825702a1bbfc358ff5784b4.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/3c\/3c934ad55818065e2c10aaa940523f732449ac287d3b248e38090f05d1270a41.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1363,6 +1403,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/3c\/3cc9b9bea393f4cb4759973dcc5a6d975d6065ce9da3c98518434b612289661d.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/3d\/3d17fcf42f13727dc5dc7a17bcffdf72d68f4cb05b0040bb9e2a627b996484d4.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/3d\/3d17fcf42f13727dc5dc7a17bcffdf72d68f4cb05b0040bb9e2a627b996484d4.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/3d\/3d42a32a8e9258d458b7f083bd2b3d0606ec9968df6048a2580c16eb4caf8cdf.php" : {
@@ -1477,6 +1525,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/5c\/5c8f2d8b74a7cf3a5ea3a9b85c126cd02e3df34aed88027b7894eb89ac860728.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/5c\/5c62c97b027e86b8a397239b53998f6679adc3b82f63d0bfd8748ee779c2a371.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/5c\/5c62c97b027e86b8a397239b53998f6679adc3b82f63d0bfd8748ee779c2a371.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/5c\/5c9281245bbb5d3ec9f2bdfb04175d6f685bde3e577c887715a356c9582299d3.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1547,6 +1603,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/7c\/7cc16fdaaae56d8028a19e5cd9368a6dc65f08dca243dcefc47c4a2f6603ae1c.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/7c\/7ccbc9aeed563e82bd7c31b9904544b061b4c16056e086ecfbdfb398901e9767.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/7c\/7ccbc9aeed563e82bd7c31b9904544b061b4c16056e086ecfbdfb398901e9767.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/7e\/7e6e4ce219f2c8cdf745bc41bc7b84e9ec2eff741cd584adfaecb17c83b27ebc.php" : {
@@ -1685,6 +1749,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/33\/33cf32195dcb5775d0d894d34d74da75ebc0b9027a73567aa6a55cbfc6641a60.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/35\/357e07e907fe3d1cc7e92e5052bf35e5be22d3f91b3fda5820c2254bba2cf8af.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/35\/357e07e907fe3d1cc7e92e5052bf35e5be22d3f91b3fda5820c2254bba2cf8af.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/36\/360f70faa108341cbef6d8588a2012f7398f46f85f43a648858fc4158b9a6457.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1773,6 +1845,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/46\/46809a1133a74bbea355d1752aeeeabeea437c456f2ec31984045fc43ece5dad.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/47\/47fadf3c0db4ea86c66fee3a2ffef94c4a64fc4728961dfd70533833f4a957e9.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/47\/47fadf3c0db4ea86c66fee3a2ffef94c4a64fc4728961dfd70533833f4a957e9.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/50\/50d7a48c608933567197a3acbb6a24137d20fdb4ea839187127818cbf13f592b.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1835,6 +1915,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/61\/616b729c583e4950a0c9334fe81806218bf9380c69a16523aee8b4834151a0d2.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/62\/620819a369bdb66a7b31efc90fdceafc9184a33f5ebe172b0a92f7092d056f6b.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/62\/620819a369bdb66a7b31efc90fdceafc9184a33f5ebe172b0a92f7092d056f6b.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/64\/6437485654d2ffabf45099db6a820dde1ca2dfe70b24f0a7e9c186dc4c926e2f.php" : {
@@ -1909,6 +1997,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/74\/74b14144fe082a0fac70aa340ce813e4b140270d7e9b80de09816e0f013b1a9e.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/74\/746cabfbf5f339d6a213d6911052a0da67a940aa044055ae05b3dd1415408392.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/74\/746cabfbf5f339d6a213d6911052a0da67a940aa044055ae05b3dd1415408392.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/78\/78fb3e54023d5821875bbc256680b422c4d18df5ddf0c2c68d189741a90650e2.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1965,6 +2061,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/84\/842b1f1bcc9022b1f37e2114d077539d487c51dd1ec63ba78c6b15db125b9d4b.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/84\/8459dd81c545ec5357981e13987202268a693233b1351528056a224f1f53cec5.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/84\/8459dd81c545ec5357981e13987202268a693233b1351528056a224f1f53cec5.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/85\/85d2756db73e97edc827b7ad693363ab0ca3d374bbafb66de46878ca52482ba6.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2003,6 +2107,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/93\/935d77a06dad78fc3ae391b82f43cfbc703acdd408e3786127165bce1543c9af.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/94\/941ffe49b377f12d9aa51492c7e93b467f238dab14acc9185b7034cbe8f135b0.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/94\/941ffe49b377f12d9aa51492c7e93b467f238dab14acc9185b7034cbe8f135b0.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/97\/97976ec3de10bb2ca4cdbf1184597bc14d060b427c1d0a3956109d72d8be6dde.php" : {
@@ -2165,6 +2277,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/b0\/b0073262c7a6c98438685b317cc1522b8b9a4e7355669c48542868eaa2979ec6.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/b2\/b2e2bf0eb147b232d4aa32887fb137962b348b681dcf2fa3ccf996eea16c3527.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/b2\/b2e2bf0eb147b232d4aa32887fb137962b348b681dcf2fa3ccf996eea16c3527.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/b5\/b5b0ff753e3e853e225d9c4109b7e92122a104fa5b3d552e7ddc874a856e7353.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2195,6 +2315,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/bb\/bb86590aefffea70aac442f01e5a02097fb47d9c4f5c3099e751cedce21973f7.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/bc\/bc15dad0d6391c09835ab271a0440d8c8ffcf9689d03d1c97fb65f003d60a757.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/bc\/bc15dad0d6391c09835ab271a0440d8c8ffcf9689d03d1c97fb65f003d60a757.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/bc\/bcb73384cbdb562300abd699bce09a37bb102bef517e6eed57f150e3bb284959.php" : {
@@ -2477,6 +2605,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/e2\/e2d00a251f8a2fea0c63c234c4cc3c89f8027c4638c6a7639a45f9f8bd2d0ed3.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/e2\/e298ca4587640814fbfc5e0447c0891689b95d365d33ca0568fd0d7f03f0bca0.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/e2\/e298ca4587640814fbfc5e0447c0891689b95d365d33ca0568fd0d7f03f0bca0.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/e2\/e2776aa91dbf519d287217a2bdf56f6954d1781037a1d1babb955a7d1239be45.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2531,6 +2667,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/e9\/e9f4b8ae09853115287fe36257da648403ab67098562462607f967c73a91c5b7.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/e9\/e90f389af4c33fc558309eb9cfacba0d03a0a08ca36a1c818bf93f06ddbf4f4d.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/e9\/e90f389af4c33fc558309eb9cfacba0d03a0a08ca36a1c818bf93f06ddbf4f4d.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/e9\/e952449cd4aad5f80b5a4e23cb5f9a389ca9a301a89a8202fe69d27023180c72.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/e9\/e952449cd4aad5f80b5a4e23cb5f9a389ca9a301a89a8202fe69d27023180c72.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/ea\/ea3f6515b67d750a9a295412a4746cdbc730971524a974df6f6a65e9eb291e2a.php" : {
@@ -2595,6 +2747,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/f4\/f4825f4516b38e50bb9ca158c4c28392814a2273cac739289d6a455da12b7636.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/f7\/f7d7d00a5788078413f296969fd66f860183e3e1a846c1df5bf211d6ae4c85a6.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/f7\/f7d7d00a5788078413f296969fd66f860183e3e1a846c1df5bf211d6ae4c85a6.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/f8\/f84cd90844a950bb3249e0ba3a62e01afa24655572dc36d780bdeda75fa2a280.php" : {
@@ -2838,6 +2998,22 @@
       "oAP" : "\/deploy\/templates\/pages\/page\/_contact\/index.twig",
       "oF" : 0
     },
+    "\/deploy\/templates\/pages\/page\/_home\/index.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/templates\/pages\/page\/_home\/index.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/pages\/page\/_page\/index.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/templates\/pages\/page\/_page\/index.twig",
+      "oF" : 0
+    },
     "\/deploy\/templates\/partials\/_blocks.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2900,6 +3076,86 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/deploy\/templates\/partials\/blocks\/_cta.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/components\/_button.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/components\/_button.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/components\/_clients.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/components\/_clients.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/components\/_cta.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/components\/_cta.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/components\/_heading.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/components\/_heading.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/components\/_images.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/components\/_images.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/components\/_label.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/components\/_label.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/components\/_project-listing.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/components\/_project-listing.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/components\/_service.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/components\/_service.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/header\/_home.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/templates\/partials\/header\/_home.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/header\/_inner.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/templates\/partials\/header\/_inner.twig",
       "oF" : 0
     },
     "\/deploy\/templates\/partials\/svg\/_arrow.svg" : {
@@ -85097,6 +85353,78 @@
       "oAP" : "\/deploy\/web\/assets\/css\/main.min.css.map",
       "oF" : 0
     },
+    "\/deploy\/web\/assets\/img\/bg-dot.jpg" : {
+      "ft" : 16384,
+      "iS" : 467219,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/assets\/img\/bg-dot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/web\/assets\/img\/bg-grid-large-2.png" : {
+      "ft" : 32768,
+      "iS" : 2313596,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/assets\/img\/bg-grid-large-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/web\/assets\/img\/bg-grid-large.png" : {
+      "ft" : 32768,
+      "iS" : 10990,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/assets\/img\/bg-grid-large.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/web\/assets\/img\/bg-grid-small.png" : {
+      "ft" : 32768,
+      "iS" : 45313,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/assets\/img\/bg-grid-small.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/web\/assets\/img\/logo-footer.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/web\/assets\/img\/logo-footer.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/web\/assets\/img\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/web\/assets\/img\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/web\/assets\/js\/app.min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -86319,6 +86647,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/web\/cpresources\/5e099c77\/element-resize-detector.js.LICENSE.txt",
+      "oF" : 0
+    },
+    "\/deploy\/web\/cpresources\/6acca895\/FeedWidget.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/6acca895\/FeedWidget.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/deploy\/web\/cpresources\/6acca895\/FeedWidget.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/6acca895\/FeedWidget.js.map",
       "oF" : 0
     },
     "\/deploy\/web\/cpresources\/6e55ac0c\/datepicker-af.js" : {
@@ -89125,6 +89472,75 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/web\/cpresources\/55d995d1\/CraftSupportWidget.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/55d995d1\/CraftSupportWidget.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/deploy\/web\/cpresources\/55d995d1\/CraftSupportWidget.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/55d995d1\/CraftSupportWidget.js.map",
+      "oF" : 0
+    },
+    "\/deploy\/web\/cpresources\/55d995d1\/css\/CraftSupportWidget.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/55d995d1\/css\/CraftSupportWidget.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/web\/cpresources\/55d995d1\/css\/CraftSupportWidget.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/55d995d1\/css\/CraftSupportWidget.css.map",
+      "oF" : 0
+    },
+    "\/deploy\/web\/cpresources\/55d995d1\/logos\/craft-partners.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/web\/cpresources\/55d995d1\/logos\/craft-partners.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/web\/cpresources\/55d995d1\/logos\/craftquest.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/web\/cpresources\/55d995d1\/logos\/craftquest.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/web\/cpresources\/55d995d1\/logos\/discord.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/web\/cpresources\/55d995d1\/logos\/discord.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/web\/cpresources\/57bd4215\/xregexp-all.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -89218,6 +89634,45 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/web\/cpresources\/92c19880\/fields.js.map",
+      "oF" : 0
+    },
+    "\/deploy\/web\/cpresources\/138f8e5e\/css\/Dashboard.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/138f8e5e\/css\/Dashboard.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/web\/cpresources\/138f8e5e\/css\/Dashboard.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/138f8e5e\/css\/Dashboard.css.map",
+      "oF" : 0
+    },
+    "\/deploy\/web\/cpresources\/138f8e5e\/Dashboard.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/138f8e5e\/Dashboard.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/deploy\/web\/cpresources\/138f8e5e\/Dashboard.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/138f8e5e\/Dashboard.js.map",
       "oF" : 0
     },
     "\/deploy\/web\/cpresources\/226cc8be\/jquery.fileupload.js" : {
@@ -91295,6 +91750,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/web\/cpresources\/c456d32\/MatrixConfigurator.js.map",
+      "oF" : 0
+    },
+    "\/deploy\/web\/cpresources\/cccf21b6\/RecentEntriesWidget.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/cccf21b6\/RecentEntriesWidget.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/deploy\/web\/cpresources\/cccf21b6\/RecentEntriesWidget.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/cccf21b6\/RecentEntriesWidget.js.map",
       "oF" : 0
     },
     "\/deploy\/web\/cpresources\/cecf06c2\/css\/redirects.css" : {
@@ -93423,6 +93897,25 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/web\/cpresources\/f27563d8\/UpdatesWidget.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/f27563d8\/UpdatesWidget.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/deploy\/web\/cpresources\/f27563d8\/UpdatesWidget.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/web\/cpresources\/f27563d8\/UpdatesWidget.js.map",
+      "oF" : 0
     },
     "\/deploy\/web\/cpresources\/fb5a3783\/css\/rebrand.css" : {
       "aP" : 1,

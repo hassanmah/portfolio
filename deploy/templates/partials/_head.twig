@@ -14,14 +14,20 @@
 
 <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
 
+{%set preTitle = ' - Hassan Mahmood'%}
 
-{% if entry is defined  %}
+{% if pageTitle %}
+  <title>{{ pageTitle | raw  }}{{preTitle}}</title>
+{% else %}
+  {% if entry is defined  %}
     {% if entry.altTitle | length %}
-      <title>{{ entry.altTitle | raw  }}</title>
+      <title>{{ entry.altTitle | raw  }}{{preTitle}}</title>
     {% else %}
-      <title>{{ entry.title | raw  }}</title>
+      <title>{{ entry.title | raw  }}{{preTitle}}</title>
     {% endif %}
+  {% endif %}
 {% endif %}
+
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,5 +35,5 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.min.css">
 

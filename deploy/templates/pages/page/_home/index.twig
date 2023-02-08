@@ -1,7 +1,8 @@
 {% extends "_layout.twig" %}
+{% set pageTitle = 'Home' %}
 
 {% block content %}
-  {% include 'partials/header/_inner' with {
+  {% include 'partials/header/_home' with {
     'entry': entry
   } only %}
 
