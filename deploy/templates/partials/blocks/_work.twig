@@ -1,0 +1,61 @@
+<div class="container-t bg-white">
+  <div class="row">
+
+    <div  data-sal="slide-up" style="--sal-duration: 1s; --sal-delay: 1s;">
+      {% include 'partials/components/_heading' with {
+        'text': "what i've worked on"
+      } only %}
+    </div>
+
+
+    {% set largeCta = false %}
+
+    {% if entry.work | length is even %}
+      {% set largeCta = true %}
+    {% endif %}
+
+    <div class="overflow-hidden rounded-12">
+      <div class="flex flex-row flex-wrap">
+        {% for item in entry.work.all() %}
+
+          <div class="w-1/2" data-sal="slide-up" style="--sal-duration: 0.5s;">
+            {% include 'partials/components/_project-listing' with {
+              'item': item
+            } only %}
+          </div>
+        {% endfor %}
+
+        <div class="{% if largeCta %}w-full{% else %}w-1/2{% endif %}" >
+          <div class="bg-blue-dark h-full min-h-[450px]">
+            <div class="p-16 flex flex-col justify-between items-start h-full {% if largeCta %}max-w-[800px]{% endif %}" data-sal="slide-up" style="--sal-duration: 0.5s; --sal-delay: 0s;">
+              <div class="mb-20">
+                {% if cta.heading %}
+                  <h3 class="h2 text-orange font-inter-tight font-bold mb-3">
+                    {{cta.heading}}
+                  </h3>
+                {% endif %}
+                {% if cta.body %}
+                  <div class="prose text-white font-inter body-lg">
+                    {{cta.body}}
+                  </div>
+                {% endif %}
+              </div>
+              {% if cta.aLink %}
+                {% include 'partials/components/_button' with {
+                  'text': cta.aLink.text,
+                  'link': cta.aLink.url,
+                  'bgColorClass': 'bg-white',
+                  'textColorClass': 'text-blue-dark',
+                  'showIcon': true
+                } only %}
+              {% endif %}
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -13,6 +13,8 @@
     "@tailwindcss/typography": "^0.5.9",
     "alpinejs": "^3.11.1",
     "aos": "^2.3.4",
+    "sal.js": "^0.8.5",
+    "scrollreveal": "^4.0.9",
     "swiper": "^9.0.3",
     "swup": "^3.0.4",
     "tailwindcss": "^3.2.4"

@@ -1589,6 +1589,14 @@
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/6a\/6a7297278fbd9f4af315145b72cf4d527d8717b29d62b70de0637ca3670d59c0.php",
       "oF" : 0
     },
+    "\/deploy\/storage\/runtime\/compiled_templates\/6c\/6c126503f07485e11a14fb89273129b31c545c19b958774b1849848f1530694c.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/6c\/6c126503f07485e11a14fb89273129b31c545c19b958774b1849848f1530694c.php",
+      "oF" : 0
+    },
     "\/deploy\/storage\/runtime\/compiled_templates\/7b\/7b5e30747c51ddc535a2bc5ff9e827f25e9f9f0148e82b59c762e0eda554a223.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1619,6 +1627,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/7c\/7ccbc9aeed563e82bd7c31b9904544b061b4c16056e086ecfbdfb398901e9767.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/7d\/7d0a702d41de23ecd36ea8e5d191093cebebcb5db2140036cef3dbd69ce9bc82.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/7d\/7d0a702d41de23ecd36ea8e5d191093cebebcb5db2140036cef3dbd69ce9bc82.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/7e\/7e6e4ce219f2c8cdf745bc41bc7b84e9ec2eff741cd584adfaecb17c83b27ebc.php" : {
@@ -1715,6 +1731,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/20\/201230297263aa7d4e4e603a6419a237acef3e1d69434fe7cefc3928219109b0.php",
+      "oF" : 0
+    },
+    "\/deploy\/storage\/runtime\/compiled_templates\/21\/21d4809a136766ec730af5d68f2cecb9b0eebc4e8c6c9da19a91adea0497fe81.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/storage\/runtime\/compiled_templates\/21\/21d4809a136766ec730af5d68f2cecb9b0eebc4e8c6c9da19a91adea0497fe81.php",
       "oF" : 0
     },
     "\/deploy\/storage\/runtime\/compiled_templates\/21\/2158c8cb6f181e227d6fb0c3eee1d8aa5ac36629261dcbdd57e88d7ea414803f.php" : {
@@ -2949,6 +2973,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/storage\/runtime\/temp\/assets63e4194c58fe39.19178012.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/storage\/runtime\/temp\/assets63e4194c58fe39.19178012.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/storage\/runtime\/temp\/assets63e1652573ad13.31541489.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -3124,6 +3158,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/deploy\/templates\/partials\/blocks\/_services.twig",
+      "oF" : 0
+    },
+    "\/deploy\/templates\/partials\/blocks\/_work.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/templates\/partials\/blocks\/_work.twig",
       "oF" : 0
     },
     "\/deploy\/templates\/partials\/components\/_button.twig" : {
@@ -85604,6 +85646,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/web\/assets\/uploads\/icons\/_34x34_crop_center-center_none\/icon-ux.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/web\/assets\/uploads\/icons\/_34x34_crop_center-center_none\/icon-ux.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/web\/assets\/uploads\/icons\/_68x68_crop_center-center_none\/icon-branding.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -85664,6 +85716,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/web\/assets\/uploads\/icons\/_68x68_crop_center-center_none\/icon-ux.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/web\/assets\/uploads\/icons\/_68x68_crop_center-center_none\/icon-ux.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/web\/assets\/uploads\/icons\/icon-branding.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -85719,6 +85781,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/web\/assets\/uploads\/icons\/icon-dev.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/web\/assets\/uploads\/icons\/icon-ux.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/web\/assets\/uploads\/icons\/icon-ux.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

@@ -1,9 +1,12 @@
 import Swiper, { Navigation, Pagination } from 'swiper';
 import Alpine from 'alpinejs'
+import sal from 'sal.js'
 
 function init() {
   window.Alpine = Alpine;
   Alpine.start();
+
+  sal();
 
   var swipers = document.querySelectorAll('.swiper');
 
@@ -37,16 +40,16 @@ function init() {
           slidesOffsetAfter: 200,
           pagination: false
         },
-        1247: {
-          spaceBetween: 20,
-          slidesOffsetBefore: 40,
-          slidesOffsetAfter: 200,
+        1200: {
+          spaceBetween: 32,
+          slidesOffsetBefore: 0,
+          slidesOffsetAfter: 20,
           pagination: false
         },
         1440: {
-          spaceBetween: 20,
-          slidesOffsetBefore: 40,
-          slidesOffsetAfter: 200,
+          spaceBetween: 32,
+          slidesOffsetBefore: 20,
+          slidesOffsetAfter: 0,
           pagination: false,
         },
       },

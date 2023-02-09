@@ -373,6 +373,7 @@ module.exports = {
       letterSpacing: {
         'body': '0.02em',
         'loose': '0.16em',
+        'heading': '0.06em'
       },
       fontFamily: {
         inter: ['Inter', 'Helvetica Neue', 'arial', 'sans-serif'],
@@ -381,7 +382,7 @@ module.exports = {
       maxWidth: {},
       colors: {
         'orange': 'rgba(249, 115, 22, 1.0)',
-        'blue-dark': 'rgba(15, 23, 42, 1.0)',
+        'blue-dark': 'rgba(10, 16, 30, 1)',
         'white': 'rgba(255, 255, 255, 1.0)',
         'white-50': 'rgba(255, 255, 255, 0.5)',
         'white-10': 'rgba(255, 255, 255, 0.1)',
@@ -538,6 +539,24 @@ module.exports = {
             margin: '0 auto',
           },
         },
+        ".container-t": {
+          maxWidth: "100%",
+          paddingLeft: "1rem",
+          paddingRight: "1rem",
+          paddingTop: "2.5rem",
+          paddingBottom: "0",
+          margin: '0 auto',
+          overflow: 'hidden',
+          // margin: '0 auto',
+
+          "@screen md": {
+            paddingLeft: "3rem",
+            paddingRight: "3rem",
+            paddingTop: "6rem",
+            paddingBottom: "2rem",
+            margin: '0 auto',
+          },
+        },
         ".button__spacing": {
           "paddingTop": "1rem",
           "paddingBottom": "0.75rem"
@@ -634,7 +653,7 @@ module.exports = {
         },
         ".row": {
           width: "100%",
-          maxWidth: "1400px",
+          maxWidth: "1200px",
           marginLeft: "auto",
           marginRight: "auto",
           paddingLeft: "0px",

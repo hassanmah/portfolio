@@ -7,33 +7,11 @@
   } only %}
 
   {% if entry.services %}
-    <div class="container" style="background: url('/assets/img/bg-dot.jpg'), rgba(255, 255, 255, 1);background-size: cover; background-position: bottom; background-repeat: no-repeat">
-      <div class="row">
-        {% include 'partials/components/_heading' with {
-          'text': "services"
-        } only %}
-      </div>
+    {% include 'partials/blocks/_services' %}
+  {% endif %}
 
-      <div class="mt-6 space-y-6 lg:mt-12 md:space-y-0 breakout">
-        <div>
-          <!-- Slider main container -->
-          <div class="swiper overflow-visible" id="swiper-services">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper md:ml-[-40px]">
-              {% for service in entry.services.all() %}
-                <div class="swiper-slide w-1/3 mx-2">
-                  {% include 'partials/components/_service' with {
-                    'item': service
-                  } only %}
-                </div>
-              {% endfor %}
-            </div>
-
-            <div class="swiper-pagination hidden"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+  {% if entry.work %}
+    {% include 'partials/blocks/_work' %}
   {% endif %}
 
 {% endblock %}

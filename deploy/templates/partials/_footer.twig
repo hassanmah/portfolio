@@ -1,5 +1,35 @@
-<footer class="container-sm mt-desktop-lg bg-sky-blue-light">
+<footer class="container-sm mt-20 bg-white">
   <div class="row">
+    <div class="bg-blue-dark rounded-12" data-sal="slide-up"  style="--sal-duration: 0.5s; --sal-delay: 0s;">
+      <div class="flex flex-row p-16">
+        <div class="flex flex-col">
+          <a href="/">
+            <img src="/assets/img/logo.svg" alt="logo">
+          </a>
+          <p class="text-white font-light font-inter body mt-4">© {{ 'now' | date('Y') }} All Rights Reserved</p>
+        </div>
+        {% if mainNavigation.links %}
+          <ul class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:items-end md:flex-row">
+            <li>
+              <a class="text-white px-4 py-2 mt-2 font-inter h6 tracking-body" href="">
+                link 1
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-4 py-2 mt-2 font-inter h6 tracking-body" href="">
+                link 1
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-4 py-2 mt-2 font-inter h6 tracking-body" href="">
+                link 1
+              </a>
+            </li>
+          </ul>
+        {% endif %}
+
+      </div>
+    </div>
   </div>
 </footer>
 
