@@ -35,16 +35,16 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
 }
 
-.nav-item {
-  opacity: 1.0;
-}
-
-ul:not(:focus-within):not(:hover) .nav-item {
-  opacity: 0.5;
-}
-
-.nav-item:focus ~ .nav-item, .nav-item:hover ~ .nav-item {
-  opacity: 0.5;
+.tag:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: #F97316;
+  position: absolute;
+  border-radius: 9999px;
+  top: 50%;
+  left: 0;
+  display: block;
 }
 
 

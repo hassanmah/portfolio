@@ -1,7 +1,7 @@
 <div class="container-t" style="background: url('/assets/img/bg-dot.jpg'), rgba(255, 255, 255, 1);background-size: cover; background-position: bottom; background-repeat: no-repeat">
   <div class="row">
 
-    <div data-sal="slide-up"  style="--sal-duration: 1s; --sal-delay: 0s;">
+    <div data-sal="slide-up"  style="--sal-duration: 0.75s;">
     {% include 'partials/components/_heading' with {
       'text': "what i do"
     } only %}
@@ -26,9 +26,9 @@
 {#      </div>#}
 {#    </div>#}
 
-    <div class="flex flex-row flex-wrap -mx-4"  data-sal="slide-up"  style="--sal-duration: 1s; --sal-delay: 0s;">
+    <div class="flex flex-row flex-wrap -mx-4">
       {% for service in entry.services.all() %}
-        <div class="h-auto w-1/2 px-4 mb-8">
+        <div class="h-auto w-1/2 px-4 mb-8" data-sal="slide-up"  style="--sal-duration: 0.75s; --sal-delay: 0s;">
           {% include 'partials/components/_service' with {
             'item': service
           } only %}

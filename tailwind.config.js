@@ -388,6 +388,7 @@ module.exports = {
         'white-10': 'rgba(255, 255, 255, 0.1)',
         'light-black': 'rgba(29, 29, 27, 1.0)',
         'black-10': 'rgba(0, 0, 0, 0.1)',
+        'orange-25': 'rgba(249, 115, 22, 0.25)',
 
       },
       dropShadow: {
