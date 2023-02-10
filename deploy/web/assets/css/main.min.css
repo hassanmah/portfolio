@@ -729,10 +729,10 @@ select {
 }
 .container {
   max-width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 2.5rem;
-  padding-bottom: 0;
+  padding-bottom: 2.5rem;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -748,10 +748,10 @@ select {
 }
 .container-t {
   max-width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 2.5rem;
-  padding-bottom: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -802,8 +802,8 @@ select {
   .container-sm {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0 auto;
   }
 }
@@ -845,9 +845,13 @@ svg {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
 }
-.-mx-4 {
-  margin-left: -1rem;
-  margin-right: -1rem;
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.-mx-8 {
+  margin-left: -2rem;
+  margin-right: -2rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
@@ -863,9 +867,6 @@ svg {
 }
 .mt-2 {
   margin-top: 0.5rem;
-}
-.mb-130 {
-  margin-bottom: 130px;
 }
 .mt-6 {
   margin-top: 1.5rem;
@@ -888,6 +889,9 @@ svg {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mt-\[80px\] {
+  margin-top: 80px;
+}
 .block {
   display: block;
 }
@@ -909,8 +913,8 @@ svg {
 .h-4 {
   height: 1rem;
 }
-.h-\[600px\] {
-  height: 600px;
+.h-\[50vh\] {
+  height: 50vh;
 }
 .h-16 {
   height: 4rem;
@@ -1016,11 +1020,14 @@ svg {
 .overflow-visible {
   overflow: visible;
 }
+.rounded-full {
+  border-radius: 9999px;
+}
 .rounded-12 {
   border-radius: 12px;
 }
-.rounded-full {
-  border-radius: 9999px;
+.rounded-md {
+  border-radius: 0.375rem;
 }
 .rounded-8 {
   border-radius: 8px;
@@ -1045,11 +1052,17 @@ svg {
 .bg-blue-dark {
   background-color: rgba(10, 16, 30, 1);
 }
+.bg-blue-header {
+  background-color: rgba(17, 23, 41, 1);
+}
 .bg-white {
   background-color: rgba(255, 255, 255, 1.0);
 }
 .bg-transparent {
   background-color: transparent;
+}
+.bg-blue-light {
+  background-color: rgba(32, 34, 150, 1.0);
 }
 .bg-orange-25 {
   background-color: rgba(249, 115, 22, 0.25);
@@ -1058,14 +1071,17 @@ svg {
   -o-object-fit: cover;
   object-fit: cover;
 }
-.p-16 {
-  padding: 4rem;
-}
-.p-10 {
-  padding: 2.5rem;
+.p-1 {
+  padding: 0.25rem;
 }
 .p-8 {
   padding: 2rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-10 {
+  padding: 2.5rem;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -1204,9 +1220,6 @@ svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.duration-100 {
-  transition-duration: 100ms;
-}
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -1217,10 +1230,10 @@ svg {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .body-sm {
-  font-size: calc(12px + 0 * ( (100vw - 400px) / 1388));
-  line-height: calc(16px + 0 * ( (100vw - 400px) / 1384));
+  font-size: calc(12px + 0 * ( (100vw - 400px) / 1188));
+  line-height: calc(16px + 0 * ( (100vw - 400px) / 1184));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
   .body-sm {
     font-size: 12px;
@@ -1234,11 +1247,29 @@ svg {
     line-height: 16px;
   }
 }
-.body {
-  font-size: calc(16px + 0 * ( (100vw - 400px) / 1384));
-  line-height: calc(26px + 0 * ( (100vw - 400px) / 1374));
+.body-md {
+  font-size: calc(14px + 0 * ( (100vw - 400px) / 1186));
+  line-height: calc(18px + 0 * ( (100vw - 400px) / 1182));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
+
+  .body-md {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 400px) {
+
+  .body-md {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.body {
+  font-size: calc(16px + 0 * ( (100vw - 400px) / 1184));
+  line-height: calc(26px + 0 * ( (100vw - 400px) / 1174));
+}
+@media (min-width: 1200px) {
 
   .body {
     font-size: 16px;
@@ -1253,10 +1284,10 @@ svg {
   }
 }
 .body-lg {
-  font-size: calc(20px + 0 * ( (100vw - 400px) / 1380));
-  line-height: calc(34px + 0 * ( (100vw - 400px) / 1366));
+  font-size: calc(18px + 2 * ( (100vw - 400px) / 1182));
+  line-height: calc(32px + 2 * ( (100vw - 400px) / 1168));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
   .body-lg {
     font-size: 20px;
@@ -1266,15 +1297,15 @@ svg {
 @media (max-width: 400px) {
 
   .body-lg {
-    font-size: 20px;
-    line-height: 34px;
+    font-size: 18px;
+    line-height: 32px;
   }
 }
 .h6 {
-  font-size: calc(18px + 0 * ( (100vw - 400px) / 1382));
-  line-height: calc(22px + 0 * ( (100vw - 400px) / 1378));
+  font-size: calc(16px + 2 * ( (100vw - 400px) / 1184));
+  line-height: calc(20px + 2 * ( (100vw - 400px) / 1180));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
   .h6 {
     font-size: 18px;
@@ -1284,15 +1315,15 @@ svg {
 @media (max-width: 400px) {
 
   .h6 {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 .h5 {
-  font-size: calc(24px + 0 * ( (100vw - 400px) / 1376));
-  line-height: calc(29px + 0 * ( (100vw - 400px) / 1371));
+  font-size: calc(20px + 4 * ( (100vw - 400px) / 1180));
+  line-height: calc(24px + 5 * ( (100vw - 400px) / 1176));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
   .h5 {
     font-size: 24px;
@@ -1302,15 +1333,15 @@ svg {
 @media (max-width: 400px) {
 
   .h5 {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 .h4 {
-  font-size: calc(34px + 0 * ( (100vw - 400px) / 1366));
-  line-height: calc(41px + 0 * ( (100vw - 400px) / 1359));
+  font-size: calc(28px + 6 * ( (100vw - 400px) / 1172));
+  line-height: calc(35px + 6 * ( (100vw - 400px) / 1165));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
   .h4 {
     font-size: 34px;
@@ -1320,15 +1351,15 @@ svg {
 @media (max-width: 400px) {
 
   .h4 {
-    font-size: 34px;
-    line-height: 41px;
+    font-size: 28px;
+    line-height: 35px;
   }
 }
 .h3 {
-  font-size: calc(40px + 0 * ( (100vw - 400px) / 1360));
-  line-height: calc(50px + 0 * ( (100vw - 400px) / 1350));
+  font-size: calc(34px + 6 * ( (100vw - 400px) / 1166));
+  line-height: calc(40px + 10 * ( (100vw - 400px) / 1160));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
   .h3 {
     font-size: 40px;
@@ -1338,15 +1369,15 @@ svg {
 @media (max-width: 400px) {
 
   .h3 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 34px;
+    line-height: 40px;
   }
 }
 .h2 {
-  font-size: calc(60px + 0 * ( (100vw - 400px) / 1340));
-  line-height: calc(73px + 0 * ( (100vw - 400px) / 1327));
+  font-size: calc(40px + 20 * ( (100vw - 400px) / 1160));
+  line-height: calc(53px + 20 * ( (100vw - 400px) / 1147));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
   .h2 {
     font-size: 60px;
@@ -1356,15 +1387,15 @@ svg {
 @media (max-width: 400px) {
 
   .h2 {
-    font-size: 60px;
-    line-height: 73px;
+    font-size: 40px;
+    line-height: 53px;
   }
 }
 .h1 {
-  font-size: calc(80px + 0 * ( (100vw - 400px) / 1320));
-  line-height: calc(92px + 0 * ( (100vw - 400px) / 1308));
+  font-size: calc(66px + 14 * ( (100vw - 400px) / 1134));
+  line-height: calc(71px + 21 * ( (100vw - 400px) / 1129));
 }
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
   .h1 {
     font-size: 80px;
@@ -1374,8 +1405,8 @@ svg {
 @media (max-width: 400px) {
 
   .h1 {
-    font-size: 80px;
-    line-height: 92px;
+    font-size: 66px;
+    line-height: 71px;
   }
 }
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
@@ -1515,15 +1546,19 @@ svg {
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
+.hover\:text-white:hover {
+  color: rgba(255, 255, 255, 1.0);
+}
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-.group:hover .group-hover\:ml-3 {
-  margin-left: 0.75rem;
 }
 .group:hover .group-hover\:translate-y-0 {
   --tw-translate-y: 0px;
@@ -1567,6 +1602,11 @@ svg {
   list-style-type: disc;
 }
 @media (min-width: 768px) {
+
+  .md\:-mx-4 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
 
   .md\:mt-10 {
     margin-top: 2.5rem;
@@ -1622,6 +1662,15 @@ svg {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .md\:p-16 {
+    padding: 4rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -1632,10 +1681,14 @@ svg {
     margin-top: 48px;
   }
 }
-@media (min-width: 1100px) {
+@media (min-width: 1300px) {
 
   .lg\:mt-12 {
     margin-top: 3rem;
+  }
+
+  .lg\:h-\[75vh\] {
+    height: 75vh;
   }
 }
 /*# sourceMappingURL=main.min.css.map */

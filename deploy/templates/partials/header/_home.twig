@@ -5,15 +5,13 @@
 {# Subheading #}
 {# Clients -> _clients #}
 
-<header class="container" style="background: url('/assets/img/bg-grid-large-3.png'), rgba(15, 23, 42, 1);background-size: contain; background-position: bottom; background-repeat: no-repeat">
+<header class="container mb-8" style="background: url('/assets/img/bg-grid-large-3.png'), rgba(15, 23, 42, 1);background-size: contain; background-position: bottom; background-repeat: no-repeat">
   <div class="row">
 
-    {% include 'partials/_navigation' %}
-
       <div class="flex items-end">
-        <div class="max-w-[900px] flex flex-col items-start">
+        <div class="max-w-[900px] flex flex-col items-start mt-[80px]">
           <span class="tag relative py-2 px-4 bg-orange-25 border border-orange text-orange font-semibold font-inter body-sm rounded-full text-center uppercase tracking-heading" data-sal="slide-up" style="--sal-duration: 0.75s; --sal-delay: 0.75s;">available for work</span>
-          <h1 class="mt-4 text-white font-extrabold font-inter-tight h1 tracking-body" data-sal="slide-up" style="--sal-duration: 0.75s; --sal-delay: 1s;">
+          <h1 class="my-4 text-white font-extrabold font-inter-tight h1 tracking-body" data-sal="slide-up" style="--sal-duration: 0.75s; --sal-delay: 1s;">
             {% if entry.altTitle %}
               {{ entry.altTitle}}
             {% else %}
@@ -34,9 +32,9 @@
               </div>
 
 
-              <div class="flex flex-row items-center -mx-4 mt-4">
+              <div class="flex flex-row items-center -mx-8 mt-4">
                 {% for item in entry.clients.all() %}
-                  <div class="px-4">
+                  <div class="px-8">
                     {{ svg( item.logo.one())}}
                   </div>
                 {% endfor %}

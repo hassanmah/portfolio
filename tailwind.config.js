@@ -303,15 +303,8 @@ module.exports = {
       md: '768px',
       ml: '878px',
       mlg: '968px',
-      lg: '1100px',
-      nav: '1100px',
-      xlg: '1180px',
-      xxlg: '1230px',
-      xxxlg: '1600px',
-      'header-md': '1400px',
-      'header-lg': '1600px',
-      'header-xlg': '2000px',
-      'header-xxlg': '2450px'
+      lg: '1300px',
+      xlg: '1400px',
     },
     fluidSize : {
       ".body-sm": {
@@ -320,6 +313,12 @@ module.exports = {
         lhMin: '16px',
         lhMax: '16px',
       },
+      ".body-md": {
+        min: '14px',
+        max: '14px',
+        lhMin: '18px',
+        lhMax: '18px',
+      },
       ".body": {
         min: '16px',
         max: '16px',
@@ -327,45 +326,45 @@ module.exports = {
         lhMax: '26px',
       },
       ".body-lg": {
-        min: '20px',
+        min: '18px',
         max: '20px',
-        lhMin: '34px',
+        lhMin: '32px',
         lhMax: '34px',
       },
       ".h6": {
-        min: '18px',
+        min: '16px',
         max: '18px',
-        lhMin: '22px',
+        lhMin: '20px',
         lhMax: '22px',
       },
       ".h5": {
-        min: '24px',
+        min: '20px',
         max: '24px',
-        lhMin: '29px',
+        lhMin: '24px',
         lhMax: '29px',
       },
       ".h4": {
-        min: '34px',
+        min: '28px',
         max: '34px',
-        lhMin: '41px',
+        lhMin: '35px',
         lhMax: '41px',
       },
       ".h3": {
-        min: '40px',
+        min: '34px',
         max: '40px',
-        lhMin: '50px',
+        lhMin: '40px',
         lhMax: '50px',
       },
       ".h2": {
-        min: '60px',
+        min: '40px',
         max: '60px',
-        lhMin: '73px',
+        lhMin: '53px',
         lhMax: '73px',
       },
       ".h1": {
-        min: '80px',
+        min: '66px',
         max: '80px',
-        lhMin: '92px',
+        lhMin: '71px',
         lhMax: '92px',
       },
     },
@@ -383,12 +382,14 @@ module.exports = {
       colors: {
         'orange': 'rgba(249, 115, 22, 1.0)',
         'blue-dark': 'rgba(10, 16, 30, 1)',
+        'blue-header': 'rgba(17, 23, 41, 1)',
         'white': 'rgba(255, 255, 255, 1.0)',
         'white-50': 'rgba(255, 255, 255, 0.5)',
         'white-10': 'rgba(255, 255, 255, 0.1)',
         'light-black': 'rgba(29, 29, 27, 1.0)',
         'black-10': 'rgba(0, 0, 0, 0.1)',
         'orange-25': 'rgba(249, 115, 22, 0.25)',
+        'blue-light': 'rgba(32, 34, 150, 1.0)'
 
       },
       dropShadow: {
@@ -473,7 +474,7 @@ module.exports = {
     plugin(function({ addUtilities, theme }) {
       const textSizes = theme('fluidSize')
       const screen = {
-        max: "1400px",
+        max: "1200px",
         min: "400px"
       }
 
@@ -524,10 +525,10 @@ module.exports = {
       addComponents({
         ".container": {
           maxWidth: "100%",
-          paddingLeft: "1rem",
-          paddingRight: "1rem",
+          paddingLeft: "2rem",
+          paddingRight: "2rem",
           paddingTop: "2.5rem",
-          paddingBottom: "0",
+          paddingBottom: "2.5rem",
           margin: '0 auto',
           overflow: 'hidden',
           // margin: '0 auto',
@@ -542,10 +543,10 @@ module.exports = {
         },
         ".container-t": {
           maxWidth: "100%",
-          paddingLeft: "1rem",
-          paddingRight: "1rem",
-          paddingTop: "2.5rem",
-          paddingBottom: "0",
+          paddingLeft: "2rem",
+          paddingRight: "2rem",
+          paddingTop: "3rem",
+          paddingBottom: "2rem",
           margin: '0 auto',
           overflow: 'hidden',
           // margin: '0 auto',
@@ -629,8 +630,8 @@ module.exports = {
           "@screen md": {
             paddingLeft: "3rem",
             paddingRight: "3rem",
-            paddingTop: "48px",
-            paddingBottom: "48px",
+            paddingTop: "20px",
+            paddingBottom: "20px",
             margin: '0 auto',
           },
         },

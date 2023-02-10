@@ -26,9 +26,9 @@
 {#      </div>#}
 {#    </div>#}
 
-    <div class="flex flex-row flex-wrap -mx-4">
+    <div class="flex flex-col md:flex-row flex-wrap md:-mx-4">
       {% for service in entry.services.all() %}
-        <div class="h-auto w-1/2 px-4 mb-8" data-sal="slide-up"  style="--sal-duration: 0.75s; --sal-delay: 0s;">
+        <div class="h-auto w-full md:w-1/2 md:px-4 mb-8" data-sal="slide-up"  style="--sal-duration: 0.75s; --sal-delay: 0s;">
           {% include 'partials/components/_service' with {
             'item': service
           } only %}

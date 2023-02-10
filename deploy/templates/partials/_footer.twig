@@ -1,27 +1,27 @@
-<footer class="container-sm mt-20 bg-blue-dark">
+<footer class="container mt-20 bg-blue-dark">
   <div class="row">
     <div class="py-16" data-sal="slide-up"  style="--sal-duration: 0.75s; --sal-delay: 0s;">
-      <div class="flex flex-row">
+      <div class="flex flex-col-reverse md:flex-row">
         <div class="flex flex-col">
           <a href="/">
             <img src="/assets/img/logo.svg" alt="logo">
           </a>
-          <p class="text-white font-light font-inter body mt-4">© {{ 'now' | date('Y') }} All Rights Reserved</p>
+          <p class="text-white font-inter body-md mt-4">© {{ 'now' | date('Y') }} All Rights Reserved</p>
         </div>
         {% if mainNavigation.links %}
-          <ul class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:items-end md:flex-row">
+          <ul class="flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:items-end md:flex-row">
             <li>
-              <a class="text-white px-4 py-2 mt-2 font-inter h6 tracking-body" href="">
+              <a class="text-white body px-4 py-2 mt-2 font-inter tracking-body hover:underline" href="">
                 link 1
               </a>
             </li>
             <li>
-              <a class="text-white px-4 py-2 mt-2 font-inter h6 tracking-body" href="">
+              <a class="text-white body px-4 py-2 mt-2 font-inter tracking-body hover:underline" href="">
                 link 1
               </a>
             </li>
             <li>
-              <a class="text-white px-4 py-2 mt-2 font-inter h6 tracking-body" href="">
+              <a class="text-white body px-4 py-2 mt-2 font-inter  tracking-body hover:underline" href="">
                 link 1
               </a>
             </li>

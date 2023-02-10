@@ -15,19 +15,19 @@
     {% endif %}
 
     <div class="overflow-hidden rounded-12">
-      <div class="flex flex-row flex-wrap">
+      <div class="flex flex-row md:flex-row flex-wrap">
         {% for item in entry.work.all() %}
 
-          <div class="w-1/2" data-sal="slide-up"  style="--sal-duration: 0.75s; --sal-delay: 0s;">
+          <div class="w-full md:w-1/2" data-sal="slide-up"  style="--sal-duration: 0.75s; --sal-delay: 0s;">
             {% include 'partials/components/_project-listing' with {
               'item': item
             } only %}
           </div>
         {% endfor %}
 
-        <div class="{% if largeCta %}w-full{% else %}w-1/2{% endif %}" >
-          <div class="bg-blue-dark h-full min-h-[450px]">
-            <div class="p-16 flex flex-col justify-between items-start h-full {% if largeCta %}max-w-[800px]{% endif %}" data-sal="slide-up"  style="--sal-duration: 0.75s; --sal-delay: 0s;">
+        <div class="{% if largeCta %}w-full{% else %}w-full md:w-1/2{% endif %}" >
+          <div class="bg-blue-light h-full min-h-[450px]">
+            <div class="p-8 md:p-16 flex flex-col justify-between items-start h-full {% if largeCta %}max-w-[800px]{% endif %}" data-sal="slide-up"  style="--sal-duration: 0.75s; --sal-delay: 0s;">
               <div class="mb-20">
                 {% if cta.heading %}
                   <h3 class="h2 text-orange font-inter-tight font-bold mb-3">
