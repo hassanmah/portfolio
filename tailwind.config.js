@@ -419,8 +419,8 @@ module.exports = {
         'minus-4': '-1rem'
       },
       borderRadius: {
-        12: "12px",
-        8: "8px",
+        12: "24px",
+        8: "24px",
       },
       fontSize: {
         11: "11px",
